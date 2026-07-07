@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>芬兰科研人员城市流动网络</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div>
+        <p class="eyebrow">Researcher Mobility in Finland, 2008-2018</p>
+        <h1>芬兰科研人员城市流动网络</h1>
+        <p class="lead">
+          基于城市间流动边表和矩阵数据，用 D3.js 展示科研人员迁移的空间通道、网络结构与时间变化。
+        </p>
+      </div>
+      <div class="stat-strip" id="periodStats"></div>
+    </header>
+
+    <main>
+      <section class="control-bar" aria-label="可视化筛选控件">
+        <div class="control-group">
+          <span class="control-label">时间段</span>
+          <div class="segmented" id="periodControls"></div>
+        </div>
+        <label class="control-group">
+          <span class="control-label">Top N 通道</span>
+          <select id="topNSelect">
+            <option value="20">Top 20</option>
+            <option value="50" selected>Top 50</option>
+            <option value="100">Top 100</option>
+            <option value="1000">全部</option>
+          </select>
+        </label>
+        <label class="toggle">
+          <input type="checkbox" id="selfLoopToggle" />
+          <span>显示同城留存</span>
+        </label>
+        <div class="control-group">
+          <span class="control-label">城市方向</span>
+          <div class="segmented compact" id="directionControls">
+            <button class="active" data-direction="all">全部</button>
+            <button data-direction="incoming">流入</button>
+            <button data-direction="outgoing">流出</button>
+          </div>
+        </div>
+        <label class="search-box">
+          <span class="control-label">城市搜索</span>
+          <input id="citySearch" list="cityOptions" placeholder="输入城市名" />
+          <datalist id="cityOptions"></datalist>
+        </label>
+        <button class="plain-button" id="resetButton">重置</button>
+      </section>
+
+      <!-- 第一幕：流动有多普遍？ -->
+      <section class="act-section" id="act1">
+        <h2 class="act-title">第一幕：流动有多普遍？</h2>
+        <p class="act-desc">研究人员到底流不流动？通过留守率衡量科研人员留在同一城市的倾向。</p>
+
+        <article class="panel panel-full">
+          <div class="panel-heading">
+            <div>
+              <h2>各城市留守率环图</h2>
+              <p>绿色弧 = 同城留存占比，蓝色弧 = 跨城流出占比。环大小反映流出总量。点击城市可联动高亮。</p>
+            </div>
+            <span class="view-tag">Act 1</span>
+          </div>
+          <svg id="retentionDonuts" role="img" aria-label="各城市留守率环图"></svg>
+        </article>
+
+        <article class="panel panel-full">
+          <div class="panel-heading">
+            <div>
+              <h2>留守率排行榜</h2>
+              <p>三个时间段并排对比，颜色从红(低留守)到绿(高留守)。</p>
+            </div>
+          </div>
+          <svg id="retentionRanking" role="img" aria-label="留守率排行榜"></svg>
+        </article>
+      </section>
+
+      <!-- 第二幕：流动发生在哪里？ -->
+      <section class="act-section" id="act2">
+        <h2 class="act-title">第二幕：流动发生在哪里？</h2>
+        <p class="act-desc">观察流动结构。流动主要沿哪些路径发生？哪些城市是枢纽？</p>
+
+        <section class="dashboard-grid">
+          <article class="panel map-panel">
+            <div class="panel-heading">
+              <div>
+                <h2>城市地图流向图</h2>
+                <p>线宽表示流动次数，节点大小表示城市总流动量。</p>
+              </div>
+              <span class="view-tag">Map flow</span>
+            </div>
+            <svg id="mapChart" role="img" aria-label="芬兰城市迁移地图"></svg>
+          </article>
+
+          <article class="panel">
+            <div class="panel-heading">
+              <div>
+                <h2>核心发现与四象限定位</h2>
+                <p>留守率 × 净流入率的战略定位图，气泡大小 = 总流动量。</p>
+              </div>
+            </div>
+            <svg id="quadrantChart" role="img" aria-label="四象限图"></svg>
+            <ol class="findings" id="findings"></ol>
+          </article>
+
+          <article class="panel">
+            <div class="panel-heading">
+              <div>
+                <h2>城市迁移网络</h2>
+                <p>D3 力导向网络，节点大小表示城市总流动量，边宽表示迁移强度。</p>
+              </div>
+              <span class="view-tag">Network</span>
+            </div>
+            <svg id="networkChart" role="img" aria-label="城市迁移网络图"></svg>
+          </article>
+
+          <article class="panel matrix-panel">
+            <div class="panel-heading">
+              <div>
+                <h2>From-To 迁移矩阵</h2>
+                <p>对角线表示同城留存，红色表示低值或零值。</p>
+              </div>
+              <span class="view-tag">Matrix</span>
+            </div>
+            <svg id="matrixChart" role="img" aria-label="城市迁移矩阵热力图"></svg>
+          </article>
+
+          <article class="panel">
+            <div class="panel-heading">
+              <div>
+                <h2>城市流入流出排行</h2>
+                <p>蓝色为流入，绿色为流出。</p>
+              </div>
+            </div>
+            <div class="bars-grid">
+              <svg id="incomingBars" role="img" aria-label="城市流入排行"></svg>
+              <svg id="outgoingBars" role="img" aria-label="城市流出排行"></svg>
+            </div>
+          </article>
+
+          <article class="panel metrics-panel">
+            <div class="panel-heading">
+              <div>
+                <h2>指标分析：留存、方向性与集中度</h2>
+                <p>同城/跨城结构、净流入率、不对称指数和 Herfindahl 流出集中度。</p>
+              </div>
+              <span class="view-tag">Metrics</span>
+            </div>
+            <div class="metrics-grid">
+              <div>
+                <h3>同城留存 vs 跨城流动</h3>
+                <svg id="retentionBars" role="img" aria-label="同城留存与跨城流动条形图"></svg>
+              </div>
+              <div>
+                <h3>净流入率</h3>
+                <svg id="netRateChart" role="img" aria-label="城市净流入率条形图"></svg>
+              </div>
+              <div>
+                <h3>城市对方向性</h3>
+                <svg id="asymmetryChart" role="img" aria-label="流量不对称指数条形图"></svg>
+              </div>
+              <div>
+                <h3>Herfindahl 流出集中度</h3>
+                <svg id="hhiChart" role="img" aria-label="流出目的地集中度条形图"></svg>
+              </div>
+              <div class="metric-wide">
+                <h3>社区结构与模块度</h3>
+                <svg id="communityChart" role="img" aria-label="城市流动网络社区结构图"></svg>
+              </div>
+            </div>
+          </article>
+        </section>
+      </section>
+
+      <!-- 第三幕：流动如何变化？ -->
+      <section class="act-section" id="act3">
+        <h2 class="act-title">第三幕：流动如何变化？</h2>
+        <p class="act-desc">引入时间维度。前五年 (2009-2013) 和后五年 (2014-2018) 有什么不同？</p>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <h2>时间变化与强通道</h2>
+              <p>对比 2009-2013 与 2014-2018，识别变化最大的迁移关系。</p>
+            </div>
+          </div>
+          <svg id="trendChart" role="img" aria-label="时间段总流动变化"></svg>
+          <div class="top-links" id="topLinks"></div>
+        </article>
+
+        <article class="panel panel-full">
+          <div class="panel-heading">
+            <div>
+              <h2>差异热力图 — 前后五年变化</h2>
+              <p>蓝色 = 流动减少，红色 = 流动增加，白色 = 无明显变化。对角线 = 同城留存变化。</p>
+            </div>
+            <span class="view-tag">Act 3</span>
+          </div>
+          <svg id="diffHeatmap" role="img" aria-label="流动差异热力图"></svg>
+        </article>
+      </section>
+
+      <!-- 第四幕：两类流动的比较 -->
+      <section class="act-section" id="act4">
+        <h2 class="act-title">第四幕：两类流动的比较</h2>
+        <p class="act-desc">把城市流动和学科流动放到同一框架下观察。这里只做比较，不做因果解释。</p>
+
+        <article class="panel panel-full comparison-panel">
+          <div class="panel-heading">
+            <div>
+              <h2>城市 vs 学科：流动特征对比</h2>
+              <p>左侧为城市间科研人员流动，右侧为学科间知识流动。两者均基于芬兰 2008-2018 数据。</p>
+            </div>
+          </div>
+          <div class="comparison-grid" id="comparisonGrid">
+            <div class="comp-card">
+              <h3>城市流动</h3>
+              <div class="comp-stat"><span class="comp-value" id="compCityTotal">—</span><span class="comp-label">总流动次数</span></div>
+              <div class="comp-stat"><span class="comp-value" id="compCityRetention">—</span><span class="comp-label">同城留守率</span></div>
+              <div class="comp-stat"><span class="comp-value" id="compCityCities">—</span><span class="comp-label">城市数量</span></div>
+            </div>
+            <div class="comp-card">
+              <h3>学科流动</h3>
+              <div class="comp-stat"><span class="comp-value" id="compDiscTotal">—</span><span class="comp-label">总流动次数</span></div>
+              <div class="comp-stat"><span class="comp-value" id="compDiscRetention">—</span><span class="comp-label">学科自引率</span></div>
+              <div class="comp-stat"><span class="comp-value" id="compDiscCount">—</span><span class="comp-label">学科数量</span></div>
+            </div>
+          </div>
+          <p style="margin-top:14px; text-align:center; font-size:12px; color:var(--muted);">
+            详细学科流动可视化请查看
+            <a href="../../Discipline-Mobility-Visualization/discipline_mobility.html" style="color:var(--blue);">学科流动网络可视化</a>
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <div class="tooltip" id="tooltip" hidden></div>
+
+    <footer class="page-footer">
+      数据来源：Author_Mobility_Network.xlsx 与 Authors_Mobility_Matrix.xlsx。学科流动数据未纳入本模块。
+    </footer>
+
+    <script src="vendor/d3.v7.min.js"></script>
+    <script src="src/city_mobility.js"></script>
+  </body>
+</html>

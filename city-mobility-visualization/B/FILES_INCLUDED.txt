@@ -1,0 +1,40 @@
+交付文件清单
+
+index.html
+  可视化页面入口。
+
+styles.css
+  页面样式、论文参考配色和响应式排版。
+
+src/city_mobility.js
+  D3 地图流向图、力导向网络、迁移矩阵、排行图、指标图、社区结构图和交互逻辑。
+
+data/city_nodes.json
+  城市节点、经纬度、流入流出、净流动和中心性数据。
+
+data/city_links.json
+  三个时间段的城市迁移边数据。
+
+data/city_matrix.json
+  三个时间段的 From-To 城市矩阵数据。
+
+data/city_summary.json
+  统计摘要、核心发现、同城留存、净流入率、不对称指数、Herfindahl 集中度和社区检测结果。
+
+raw_data/Author_Mobility_Network.xlsx
+  B 部分核心城市迁移边表原始数据。
+
+raw_data/Authors_Mobility_Matrix.xlsx
+  B 部分城市 From-To 矩阵原始数据。
+
+vendor/d3.v7.min.js
+  本地 D3.js 运行库，避免依赖外网 CDN。
+
+scripts/build_city_data.py
+  从原始 Excel 生成网页所需 JSON 的数据脚本，供复现或继续扩展使用。
+
+docs/B_city_mobility_explanation.txt
+  图表说明、指标解释、核心发现和汇报用文字。
+
+README_RUN.txt
+  给下一个同学或展示电脑使用的运行说明。

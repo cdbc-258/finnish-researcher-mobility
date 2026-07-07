@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>芬兰科研人员去哪儿？——城市迁移与学科变迁</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;700;900&family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== STICKY NAV ===== -->
+<nav class="topnav" id="topnav">
+  <div class="topnav__inner">
+    <a class="topnav__brand" href="#hero">◈ 芬兰科研人员流动</a>
+    <div class="topnav__links">
+      <a href="#scene1" class="topnav__link">01 流动有多普遍</a>
+      <a href="#scene2" class="topnav__link">02 流动在哪里</a>
+      <a href="#scene3" class="topnav__link">03 学科知识流动</a>
+      <a href="#scene4" class="topnav__link">04 双视角对比</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="hero">
+  <div class="hero__bg">
+    <svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+      <circle cx="280" cy="180" r="80" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.5"/>
+      <circle cx="320" cy="200" r="140" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.4"/>
+      <circle cx="520" cy="340" r="110" fill="none" stroke="currentColor" stroke-width="0.7" opacity="0.5"/>
+      <circle cx="480" cy="310" r="60" fill="none" stroke="currentColor" stroke-width="0.9" opacity="0.4"/>
+      <line x1="280" y1="180" x2="520" y2="340" stroke="currentColor" stroke-width="0.3" opacity="0.5"/>
+      <line x1="320" y1="200" x2="480" y2="310" stroke="currentColor" stroke-width="0.4" opacity="0.5"/>
+      <line x1="180" y1="280" x2="400" y2="200" stroke="currentColor" stroke-width="0.3" opacity="0.4"/>
+    </svg>
+  </div>
+  <div class="hero__top">芬兰科研人员流动可视化 &nbsp;·&nbsp; 2008 – 2018</div>
+  <div class="hero__center">
+    <p class="hero__kicker">数据叙事</p>
+    <h1>芬兰科研人员<br>去哪儿？</h1>
+    <p class="hero__deck">城市迁移与学科变迁的双重视角</p>
+    <p class="hero__summary">基于 2008–2018 年芬兰科研人员流动数据，<br>从空间与知识两个维度，揭示学术人才的流动规律。</p>
+  </div>
+  <div class="hero__footer">
+    <div class="hero__chapters">
+      <a href="#scene1"><b>01</b><span>流动有多普遍</span><small>留守率与流动倾向</small></a>
+      <a href="#scene2"><b>02</b><span>流动发生在哪里</span><small>空间结构与枢纽</small></a>
+      <a href="#scene3"><b>03</b><span>学科知识流动</span><small>热力图·网络·弦图</small></a>
+      <a href="#scene4"><b>04</b><span>双视角对比</span><small>城市 × 学科</small></a>
+    </div>
+    <p class="hero__hint">↓ 滚动或点击上方导航探索</p>
+  </div>
+</section>
+
+<!-- ===== SCENE 1: 流动有多普遍？ ===== -->
+<section class="scene" id="scene1">
+  <div class="scene__head">
+    <span class="scene__num">01</span>
+    <div><h2>流动有多普遍？</h2><p>研究人员到底流不流动？留守率是衡量流动倾向的第一个指标。</p></div>
+  </div>
+  <div class="scene__body">
+    <div class="stat-strip" id="periodStats"></div>
+    <div class="control-bar">
+      <div class="control-group"><span class="control-label">时间段</span><div class="segmented period-controls" id="periodControls"></div></div>
+    </div>
+
+    <div class="chart-row cols-2">
+      <div class="chart-card"><div class="chart-card__head"><h3>各城市留守率</h3><p>绿色 = 同城留存，蓝色 = 跨城流出，按留守率降序排列</p></div><div class="chart-card__note">揭示哪些城市留守率高，哪些城市贡献了主要跨城流动。</div><svg id="retentionDonuts"></svg></div>
+      <div class="chart-card"><div class="chart-card__head"><h3>留守率排行榜</h3><p>三个时间段并排，红→绿 = 低→高留守</p></div><div class="chart-card__note">对比不同时间段城市留守排名，观察哪些城市保持稳定，哪些趋势变化明显。</div><svg id="retentionRanking"></svg></div>
+    </div>
+    <div class="guide-row">
+      <div class="guide-item"><strong>发现</strong><ul><li>赫尔辛基留守率最高，是科研人员空间流动中最稳固的节点。</li><li>整体迁移仍以留守为主，说明大多数科研人员保持城市稳定性。</li><li>少数大型城市和科研集群形成高频跨城通道。</li><li>中小城市更倾向于人才流出，呈现“单向流出”特征。</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SCENE 2: 流动发生在哪里？ ===== -->
+<section class="scene" id="scene2">
+  <div class="scene__head">
+    <span class="scene__num">02</span>
+    <div><h2>流动发生在哪里？</h2><p>流动主要沿哪些路径发生？哪些城市是枢纽？流动网络呈现怎样的拓扑结构？</p></div>
+  </div>
+  <div class="scene__body">
+    <div class="control-bar map-controls">
+      <div class="control-group"><span class="control-label">时间段</span><div class="segmented period-controls"></div></div>
+      <label class="control-group" title="控制地图与网络图中显示前N条最强流动路径"><span class="control-label">显示路径</span><select id="topNSelect"><option value="20">Top 20</option><option value="50" selected>Top 50</option><option value="100">Top 100</option><option value="1000">全部</option></select></label>
+      <div class="control-group"><span class="control-label">方向</span><div class="segmented compact" id="directionControls"><button class="active" data-direction="all">全部</button><button data-direction="incoming">流入</button><button data-direction="outgoing">流出</button></div></div>
+      <label class="toggle"><input type="checkbox" id="selfLoopToggle"><span>同城留存</span></label>
+      <label class="search-box"><span class="control-label">搜索城市</span><input id="citySearch" list="cityOptions" placeholder="输入城市名"><datalist id="cityOptions"></datalist></label>
+      <button class="plain-btn" id="resetButton">重置</button>
+    </div>
+
+    <div class="chart-row cols-2">
+      <div class="chart-card chart-card--span"><div class="chart-card__head"><h3>城市地图流向图</h3><p>线宽 = 流动强度，点径 = 城市总流量</p></div><div class="chart-card__note">地图展示城市间的主要迁移走廊。搜索城市、方向与路径筛选将帮助你识别核心城市。</div><svg id="mapChart"></svg></div>
+      <div class="chart-card chart-card--span"><div class="chart-card__head"><h3>四象限定位图</h3><p>留守率 × 净流入率，气泡 = 总流动量</p></div><div class="chart-card__note">四象限对比展示高留守/高净流入等城市类型，便于快速识别“稳定枢纽”与“流出热点”。</div><div class="quadrant-row"><svg id="quadrantChart"></svg><ol class="findings" id="findings"></ol></div></div>
+    </div>
+    <div class="chart-row cols-2">
+      <div class="chart-card"><div class="chart-card__head"><h3>城市迁移网络</h3><p>力导向布局，边宽 = 迁移强度</p></div><div class="chart-card__note">可视化城市节点间关系，突出高强度的核心-边缘网络结构。</div><svg id="networkChart"></svg></div>
+      <div class="chart-card"><div class="chart-card__head"><h3>From-To 迁移矩阵</h3><p>对角线 = 同城留存</p></div><div class="chart-card__note">矩阵帮助判断哪些城市之间的迁移动量最大，以及同城留存在整体流动中的占比。</div><svg id="matrixChart"></svg></div>
+    </div>
+    <div class="chart-row cols-2">
+      <div class="chart-card"><div class="chart-card__head"><h3>城市流入排行</h3></div><svg id="incomingBars"></svg></div>
+      <div class="chart-card"><div class="chart-card__head"><h3>城市流出排行</h3></div><svg id="outgoingBars"></svg></div>
+    </div>
+    <div class="chart-row cols-3">
+      <div class="chart-card"><div class="chart-card__head"><h3>同城留存 vs 跨城流动</h3></div><svg id="retentionBars"></svg></div>
+      <div class="chart-card"><div class="chart-card__head"><h3>净流入率</h3></div><svg id="netRateChart"></svg></div>
+      <div class="chart-card"><div class="chart-card__head"><h3>城市对方向性</h3></div><svg id="asymmetryChart"></svg></div>
+    </div>
+    <div class="chart-row cols-2">
+      <div class="chart-card"><div class="chart-card__head"><h3>流出集中度 (HHI)</h3></div><svg id="hhiChart"></svg></div>
+      <div class="chart-card"><div class="chart-card__head"><h3>社区结构</h3></div><svg id="communityChart"></svg></div>
+    </div>
+    <div class="guide-row">
+      <div class="guide-item"><strong>发现</strong><ul><li>城市迁移网络明显呈核心-边缘结构，流动重点集中在少数枢纽城市。</li><li>赫尔辛基仍是最大流入/流出枢纽，网络边缘城市多为单向流出端。</li><li>从-到矩阵显示，同城留存量大于跨城迁移，说明城市内部稳定性较高。</li><li>流入排行与流出排行分化，反映城市间迁移角色不同。</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SCENE 3: 学科知识流动 ===== -->
+<section class="scene" id="scene3">
+  <div class="scene__head">
+    <span class="scene__num">03</span>
+    <div><h2>学科知识如何流动？</h2><p>从学科大类角度，观察知识在学科间的传递网络与结构。</p></div>
+  </div>
+  <div class="scene__body">
+    
+    <div class="chart-card chart-card--full" id="disciplineExplorer">
+      <div class="chart-card__head"><h3>学科知识流动探索器</h3><p>切换视图，从不同角度观察学科间的知识流动结构</p></div>
+      <div class="disc-controls">
+        <div class="control-group"><label>时间段</label><div class="btn-group" id="periodBtns"></div></div>
+        <div class="control-group"><label>视图</label><div class="btn-group" id="viewBtns">
+          <button class="view-btn active" data-view="retention">留守率环图</button>
+          <button class="view-btn" data-view="netflow">净流动</button>
+          <button class="view-btn" data-view="heatmap">热力矩阵</button>
+          <button class="view-btn" data-view="network">学科网络</button>
+          <button class="view-btn" data-view="chord">弦图</button>
+          <button class="view-btn" data-view="openness">开放度</button>
+          <button class="view-btn" data-view="diff_heatmap">差异热力图</button>
+        </div></div>
+        <div class="control-group anim-group"><label>动画</label>
+          <input type="checkbox" id="flowAnimToggle" checked>
+          <label>速度</label><input type="range" id="flowSpeed" min="0.2" max="3" step="0.1" value="1">
+          <label>密度</label><input type="range" id="flowDensity" min="1" max="8" step="1" value="3">
+        </div>
+      </div>
+      <div class="disc-viz-container">
+        <div id="chartArea" class="chart-area"></div>
+        <div id="discTooltip" class="tooltip"></div>
+        <div id="legend" class="legend"></div>
+        <div id="statsBar" class="stats-bar"></div>
+      </div>
+    </div>
+    <div class="guide-row">
+      <div class="guide-item"><strong>发现</strong><ul><li>学科流动沿邻近性展开，近邻学科之间的知识交换最为频繁。</li><li>计算机科学与数学在学科网络中起到桥梁作用，连接多个学科群。</li><li>热力矩阵和弦图显示，跨学科流动主要发生在相邻或相关领域之间。</li><li>知识流动结构比城市流动更分散，表现出多中心网络特征。</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SCENE 4: 时间变化与双视角对比 ===== -->
+<section class="scene" id="scene4">
+  <div class="scene__head">
+    <span class="scene__num">04</span>
+    <div><h2>时间变化与双视角对比</h2><p>前后五年有何变化？城市流动与学科流动有何异同？</p></div>
+  </div>
+  <div class="scene__body">
+    <div class="chart-card chart-card--full"><div class="chart-card__head"><h3>城市流动时间变化</h3></div><svg id="trendChart"></svg><div class="top-links" id="topLinks"></div></div>
+    <div class="chart-row cols-2">
+      <div class="chart-card"><div class="chart-card__head"><h3>城市差异热力图</h3><p>蓝色 = 减少，红色 = 增加</p></div><svg id="diffHeatmap"></svg></div>
+      <div class="chart-card"><div class="chart-card__head"><h3>学科差异热力图</h3><p>前后五年学科间流动变化</p></div><div id="discDiffFull"></div></div>
+    </div>
+
+    <div class="kpi-compare" id="comparisonGrid">
+      <div class="kpi-card"><h3>🏙️ 城市流动</h3>
+        <div class="kpi-row"><span>总流动次数</span><strong id="compCityTotal">—</strong></div>
+        <div class="kpi-row"><span>同城留守率</span><strong id="compCityRetention">—</strong></div>
+        <div class="kpi-row"><span>城市数量</span><strong id="compCityCities">—</strong></div>
+      </div>
+      <div class="kpi-card"><h3>📚 学科流动</h3>
+        <div class="kpi-row"><span>总流动次数</span><strong id="compDiscTotal">—</strong></div>
+        <div class="kpi-row"><span>学科自引率</span><strong id="compDiscRetention">—</strong></div>
+        <div class="kpi-row"><span>学科数量</span><strong id="compDiscCount">—</strong></div>
+      </div>
+    </div>
+
+    <div class="chart-row cols-2">
+      <div class="chart-card"><div class="chart-card__head"><h3>城市流动网络</h3></div><svg id="compCityNetwork"></svg></div>
+      <div class="chart-card"><div class="chart-card__head"><h3>学科流动热力</h3></div><svg id="compDiscHeatmap"></svg></div>
+    </div>
+
+    <div class="insight-grid" id="insightGrid">
+      <div class="insight-card"><h4>🔗 共同特征</h4><ul><li>流动呈<strong>幂律分布</strong>：少数通道承载大部分流动</li><li><strong>自留/自引</strong>占主导地位</li><li>存在明显的<strong>社区结构</strong></li><li>时间上流动结构保持<strong>稳定</strong></li></ul></div>
+      <div class="insight-card"><h4>⚡ 关键差异</h4><ul><li><strong>流动门槛</strong>：城市需物理搬迁 vs 学科改变研究方向</li><li><strong>集中度</strong>：城市集中于赫尔辛基 vs 学科分布更均匀</li><li><strong>方向性</strong>：城市"核心-边缘" vs 学科多中心网络</li></ul></div>
+    </div>
+        <div class="guide-row">
+      <div class="guide-item"><strong>发现</strong><ul><li>城市流动集中在少数核心城市，形成显著的枢纽效应。</li><li>学科流动更分散，多个领域共同参与知识交换。</li><li>时间对比显示整体流动格局相对稳定，未出现剧烈重构。</li><li>城市与学科双视角证明：空间流动和知识流动的集中度存在差异，但都呈现社区化特征。</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 结论 ===== -->
+<section class="final-section" id="final">
+  <div class="final-content">
+    <p class="eyebrow">结论 · Conclusion</p>
+    <h2>流动是常态，<br>但结构是稳定的。</h2>
+    <p class="final-text">芬兰科研人员的流动呈现出清晰的规律：大多数人留在熟悉的城市和学科中，但跨城市、跨学科的流动构成了知识交流的血管网络。赫尔辛基是空间流动的心脏，计算机科学是知识流动的桥梁。</p>
+    <div class="timeline">
+      <div class="timeline__item"><div class="timeline__dot">01</div><h3>留守是主流</h3><p>超过 <strong>70%</strong> 的科研人员选择留守同一城市。</p></div>
+      <div class="timeline__item"><div class="timeline__dot">02</div><h3>核心-边缘结构</h3><p><strong>赫尔辛基</strong>是无可争议的流动枢纽。</p></div>
+      <div class="timeline__item"><div class="timeline__dot">03</div><h3>时间稳定性</h3><p>前后五年流动结构<strong>高度相似</strong>，深层结构性原因。</p></div>
+    </div>
+    <p class="final-credit">数据来源：Author_Mobility_Network.xlsx & Authors_Mobility_Matrix.xlsx &nbsp;|&nbsp; D3.js v7 &nbsp;|&nbsp; 团队项目</p>
+  </div>
+</section>
+
+<!-- ===== Global Tooltip ===== -->
+<div class="tooltip-global" id="tooltip" hidden></div>
+
+<!-- ===== Scripts ===== -->
+<script src="vendor/d3.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+<script src="app.js"></script>
+<script src="disc-viz.js"></script>
+</body>
+</html>

@@ -1,0 +1,470 @@
+{
+  "2008-2018": [
+    {
+      "city": "Oulu",
+      "self": 363263,
+      "outgoing": 501088,
+      "nonSelf": 137825,
+      "retentionRate": 0.724949
+    },
+    {
+      "city": "Turku",
+      "self": 391274,
+      "outgoing": 540447,
+      "nonSelf": 149173,
+      "retentionRate": 0.723982
+    },
+    {
+      "city": "Kuopio",
+      "self": 287180,
+      "outgoing": 402019,
+      "nonSelf": 114839,
+      "retentionRate": 0.714344
+    },
+    {
+      "city": "Tampere",
+      "self": 308372,
+      "outgoing": 433190,
+      "nonSelf": 124818,
+      "retentionRate": 0.711863
+    },
+    {
+      "city": "Helsinki",
+      "self": 3257885,
+      "outgoing": 5068280,
+      "nonSelf": 1810395,
+      "retentionRate": 0.642799
+    },
+    {
+      "city": "Jyvaskyla",
+      "self": 209760,
+      "outgoing": 428951,
+      "nonSelf": 219191,
+      "retentionRate": 0.489007
+    },
+    {
+      "city": "Vaasa",
+      "self": 14192,
+      "outgoing": 29951,
+      "nonSelf": 15759,
+      "retentionRate": 0.473841
+    },
+    {
+      "city": "Other",
+      "self": 96880,
+      "outgoing": 208617,
+      "nonSelf": 111737,
+      "retentionRate": 0.464392
+    },
+    {
+      "city": "Espoo",
+      "self": 48172,
+      "outgoing": 104483,
+      "nonSelf": 56311,
+      "retentionRate": 0.461051
+    },
+    {
+      "city": "Joensuu",
+      "self": 16610,
+      "outgoing": 37872,
+      "nonSelf": 21262,
+      "retentionRate": 0.438583
+    },
+    {
+      "city": "Nurmijarvi",
+      "self": 12,
+      "outgoing": 29,
+      "nonSelf": 17,
+      "retentionRate": 0.413793
+    },
+    {
+      "city": "Mikkeli",
+      "self": 1668,
+      "outgoing": 4171,
+      "nonSelf": 2503,
+      "retentionRate": 0.399904
+    },
+    {
+      "city": "Lohja",
+      "self": 160,
+      "outgoing": 437,
+      "nonSelf": 277,
+      "retentionRate": 0.366133
+    },
+    {
+      "city": "Jarvenpaa",
+      "self": 64,
+      "outgoing": 182,
+      "nonSelf": 118,
+      "retentionRate": 0.351648
+    },
+    {
+      "city": "Hameenlinna",
+      "self": 837,
+      "outgoing": 2466,
+      "nonSelf": 1629,
+      "retentionRate": 0.339416
+    },
+    {
+      "city": "Pori",
+      "self": 1802,
+      "outgoing": 5340,
+      "nonSelf": 3538,
+      "retentionRate": 0.337453
+    },
+    {
+      "city": "Lahti",
+      "self": 2063,
+      "outgoing": 6147,
+      "nonSelf": 4084,
+      "retentionRate": 0.335611
+    },
+    {
+      "city": "Vantaa",
+      "self": 3028,
+      "outgoing": 10143,
+      "nonSelf": 7115,
+      "retentionRate": 0.298531
+    },
+    {
+      "city": "Kotka",
+      "self": 414,
+      "outgoing": 1436,
+      "nonSelf": 1022,
+      "retentionRate": 0.288301
+    },
+    {
+      "city": "Rauma",
+      "self": 104,
+      "outgoing": 427,
+      "nonSelf": 323,
+      "retentionRate": 0.24356
+    },
+    {
+      "city": "Porvoo",
+      "self": 235,
+      "outgoing": 1077,
+      "nonSelf": 842,
+      "retentionRate": 0.218199
+    },
+    {
+      "city": "Lappeenranta",
+      "self": 160026,
+      "outgoing": 1443617,
+      "nonSelf": 1283591,
+      "retentionRate": 0.110851
+    }
+  ],
+  "2009-2013": [
+    {
+      "city": "Jyvaskyla",
+      "self": 129314,
+      "outgoing": 175825,
+      "nonSelf": 46511,
+      "retentionRate": 0.73547
+    },
+    {
+      "city": "Turku",
+      "self": 129799,
+      "outgoing": 179311,
+      "nonSelf": 49512,
+      "retentionRate": 0.723876
+    },
+    {
+      "city": "Tampere",
+      "self": 98339,
+      "outgoing": 138537,
+      "nonSelf": 40198,
+      "retentionRate": 0.709839
+    },
+    {
+      "city": "Kuopio",
+      "self": 92026,
+      "outgoing": 130758,
+      "nonSelf": 38732,
+      "retentionRate": 0.703789
+    },
+    {
+      "city": "Oulu",
+      "self": 116827,
+      "outgoing": 169083,
+      "nonSelf": 52256,
+      "retentionRate": 0.690945
+    },
+    {
+      "city": "Helsinki",
+      "self": 1285408,
+      "outgoing": 1933414,
+      "nonSelf": 648006,
+      "retentionRate": 0.664838
+    },
+    {
+      "city": "Joensuu",
+      "self": 5138,
+      "outgoing": 10612,
+      "nonSelf": 5474,
+      "retentionRate": 0.484169
+    },
+    {
+      "city": "Espoo",
+      "self": 14373,
+      "outgoing": 35462,
+      "nonSelf": 21089,
+      "retentionRate": 0.405307
+    },
+    {
+      "city": "Vaasa",
+      "self": 4603,
+      "outgoing": 11902,
+      "nonSelf": 7299,
+      "retentionRate": 0.386742
+    },
+    {
+      "city": "Other",
+      "self": 26561,
+      "outgoing": 69730,
+      "nonSelf": 43169,
+      "retentionRate": 0.380912
+    },
+    {
+      "city": "Mikkeli",
+      "self": 563,
+      "outgoing": 1603,
+      "nonSelf": 1040,
+      "retentionRate": 0.351216
+    },
+    {
+      "city": "Lahti",
+      "self": 997,
+      "outgoing": 3042,
+      "nonSelf": 2045,
+      "retentionRate": 0.327745
+    },
+    {
+      "city": "Hameenlinna",
+      "self": 295,
+      "outgoing": 942,
+      "nonSelf": 647,
+      "retentionRate": 0.313163
+    },
+    {
+      "city": "Pori",
+      "self": 543,
+      "outgoing": 1801,
+      "nonSelf": 1258,
+      "retentionRate": 0.301499
+    },
+    {
+      "city": "Lohja",
+      "self": 14,
+      "outgoing": 53,
+      "nonSelf": 39,
+      "retentionRate": 0.264151
+    },
+    {
+      "city": "Vantaa",
+      "self": 937,
+      "outgoing": 3609,
+      "nonSelf": 2672,
+      "retentionRate": 0.259629
+    },
+    {
+      "city": "Nurmijarvi",
+      "self": 1,
+      "outgoing": 4,
+      "nonSelf": 3,
+      "retentionRate": 0.25
+    },
+    {
+      "city": "Rauma",
+      "self": 51,
+      "outgoing": 205,
+      "nonSelf": 154,
+      "retentionRate": 0.24878
+    },
+    {
+      "city": "Kotka",
+      "self": 140,
+      "outgoing": 638,
+      "nonSelf": 498,
+      "retentionRate": 0.219436
+    },
+    {
+      "city": "Porvoo",
+      "self": 60,
+      "outgoing": 385,
+      "nonSelf": 325,
+      "retentionRate": 0.155844
+    },
+    {
+      "city": "Jarvenpaa",
+      "self": 6,
+      "outgoing": 42,
+      "nonSelf": 36,
+      "retentionRate": 0.142857
+    },
+    {
+      "city": "Lappeenranta",
+      "self": 57535,
+      "outgoing": 549209,
+      "nonSelf": 491674,
+      "retentionRate": 0.10476
+    }
+  ],
+  "2014-2018": [
+    {
+      "city": "Oulu",
+      "self": 235355,
+      "outgoing": 314648,
+      "nonSelf": 79293,
+      "retentionRate": 0.747995
+    },
+    {
+      "city": "Turku",
+      "self": 242291,
+      "outgoing": 333690,
+      "nonSelf": 91399,
+      "retentionRate": 0.726096
+    },
+    {
+      "city": "Kuopio",
+      "self": 182824,
+      "outgoing": 253194,
+      "nonSelf": 70370,
+      "retentionRate": 0.722071
+    },
+    {
+      "city": "Tampere",
+      "self": 196352,
+      "outgoing": 273139,
+      "nonSelf": 76787,
+      "retentionRate": 0.718872
+    },
+    {
+      "city": "Helsinki",
+      "self": 1853770,
+      "outgoing": 2997201,
+      "nonSelf": 1143431,
+      "retentionRate": 0.6185
+    },
+    {
+      "city": "Vaasa",
+      "self": 9363,
+      "outgoing": 17277,
+      "nonSelf": 7914,
+      "retentionRate": 0.541934
+    },
+    {
+      "city": "Other",
+      "self": 66814,
+      "outgoing": 129440,
+      "nonSelf": 62626,
+      "retentionRate": 0.516177
+    },
+    {
+      "city": "Espoo",
+      "self": 31029,
+      "outgoing": 62523,
+      "nonSelf": 31494,
+      "retentionRate": 0.496281
+    },
+    {
+      "city": "Jarvenpaa",
+      "self": 52,
+      "outgoing": 116,
+      "nonSelf": 64,
+      "retentionRate": 0.448276
+    },
+    {
+      "city": "Mikkeli",
+      "self": 994,
+      "outgoing": 2256,
+      "nonSelf": 1262,
+      "retentionRate": 0.440603
+    },
+    {
+      "city": "Nurmijarvi",
+      "self": 11,
+      "outgoing": 25,
+      "nonSelf": 14,
+      "retentionRate": 0.44
+    },
+    {
+      "city": "Joensuu",
+      "self": 10115,
+      "outgoing": 24466,
+      "nonSelf": 14351,
+      "retentionRate": 0.413431
+    },
+    {
+      "city": "Lohja",
+      "self": 125,
+      "outgoing": 328,
+      "nonSelf": 203,
+      "retentionRate": 0.381098
+    },
+    {
+      "city": "Lahti",
+      "self": 927,
+      "outgoing": 2543,
+      "nonSelf": 1616,
+      "retentionRate": 0.36453
+    },
+    {
+      "city": "Hameenlinna",
+      "self": 485,
+      "outgoing": 1358,
+      "nonSelf": 873,
+      "retentionRate": 0.357143
+    },
+    {
+      "city": "Kotka",
+      "self": 259,
+      "outgoing": 726,
+      "nonSelf": 467,
+      "retentionRate": 0.356749
+    },
+    {
+      "city": "Pori",
+      "self": 1101,
+      "outgoing": 3124,
+      "nonSelf": 2023,
+      "retentionRate": 0.352433
+    },
+    {
+      "city": "Vantaa",
+      "self": 1750,
+      "outgoing": 5310,
+      "nonSelf": 3560,
+      "retentionRate": 0.329567
+    },
+    {
+      "city": "Jyvaskyla",
+      "self": 75297,
+      "outgoing": 243576,
+      "nonSelf": 168279,
+      "retentionRate": 0.309131
+    },
+    {
+      "city": "Rauma",
+      "self": 51,
+      "outgoing": 171,
+      "nonSelf": 120,
+      "retentionRate": 0.298246
+    },
+    {
+      "city": "Porvoo",
+      "self": 131,
+      "outgoing": 494,
+      "nonSelf": 363,
+      "retentionRate": 0.265182
+    },
+    {
+      "city": "Lappeenranta",
+      "self": 101749,
+      "outgoing": 890317,
+      "nonSelf": 788568,
+      "retentionRate": 0.114284
+    }
+  ]
+}

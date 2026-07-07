@@ -1,0 +1,7510 @@
+{
+  "periods": [
+    "2008-2018",
+    "2009-2013",
+    "2014-2018"
+  ],
+  "periodTotals": {
+    "2008-2018": {
+      "total": 9230370,
+      "self": 5164001,
+      "nonSelf": 4066369,
+      "edges": 377
+    },
+    "2009-2013": {
+      "total": 3416167,
+      "self": 1963530,
+      "nonSelf": 1452637,
+      "edges": 332
+    },
+    "2014-2018": {
+      "total": 5555922,
+      "self": 3010845,
+      "nonSelf": 2545077,
+      "edges": 356
+    }
+  },
+  "retentionMobility": {
+    "2008-2018": {
+      "total": 9230370,
+      "self": 5164001,
+      "nonSelf": 4066369,
+      "edges": 377,
+      "selfRate": 0.559458,
+      "nonSelfRate": 0.440542
+    },
+    "2009-2013": {
+      "total": 3416167,
+      "self": 1963530,
+      "nonSelf": 1452637,
+      "edges": 332,
+      "selfRate": 0.574776,
+      "nonSelfRate": 0.425224
+    },
+    "2014-2018": {
+      "total": 5555922,
+      "self": 3010845,
+      "nonSelf": 2545077,
+      "edges": 356,
+      "selfRate": 0.541916,
+      "nonSelfRate": 0.458084
+    }
+  },
+  "netInflowRates": {
+    "2008-2018": [
+      {
+        "city": "Jarvenpaa",
+        "incoming": 201,
+        "outgoing": 182,
+        "net": 19,
+        "netInflowRate": 0.049608,
+        "absRate": 0.049608,
+        "total": 383
+      },
+      {
+        "city": "Rauma",
+        "incoming": 468,
+        "outgoing": 427,
+        "net": 41,
+        "netInflowRate": 0.04581,
+        "absRate": 0.04581,
+        "total": 895
+      },
+      {
+        "city": "Lohja",
+        "incoming": 475,
+        "outgoing": 437,
+        "net": 38,
+        "netInflowRate": 0.041667,
+        "absRate": 0.041667,
+        "total": 912
+      },
+      {
+        "city": "Porvoo",
+        "incoming": 1169,
+        "outgoing": 1077,
+        "net": 92,
+        "netInflowRate": 0.040962,
+        "absRate": 0.040962,
+        "total": 2246
+      },
+      {
+        "city": "Vantaa",
+        "incoming": 10508,
+        "outgoing": 10143,
+        "net": 365,
+        "netInflowRate": 0.017675,
+        "absRate": 0.017675,
+        "total": 20651
+      },
+      {
+        "city": "Kotka",
+        "incoming": 1481,
+        "outgoing": 1436,
+        "net": 45,
+        "netInflowRate": 0.015427,
+        "absRate": 0.015427,
+        "total": 2917
+      },
+      {
+        "city": "Vaasa",
+        "incoming": 30593,
+        "outgoing": 29951,
+        "net": 642,
+        "netInflowRate": 0.010604,
+        "absRate": 0.010604,
+        "total": 60544
+      },
+      {
+        "city": "Other",
+        "incoming": 212173,
+        "outgoing": 208617,
+        "net": 3556,
+        "netInflowRate": 0.008451,
+        "absRate": 0.008451,
+        "total": 420790
+      },
+      {
+        "city": "Mikkeli",
+        "incoming": 4111,
+        "outgoing": 4171,
+        "net": -60,
+        "netInflowRate": -0.007245,
+        "absRate": 0.007245,
+        "total": 8282
+      },
+      {
+        "city": "Pori",
+        "incoming": 5414,
+        "outgoing": 5340,
+        "net": 74,
+        "netInflowRate": 0.006881,
+        "absRate": 0.006881,
+        "total": 10754
+      },
+      {
+        "city": "Lahti",
+        "incoming": 6224,
+        "outgoing": 6147,
+        "net": 77,
+        "netInflowRate": 0.006224,
+        "absRate": 0.006224,
+        "total": 12371
+      },
+      {
+        "city": "Hameenlinna",
+        "incoming": 2439,
+        "outgoing": 2466,
+        "net": -27,
+        "netInflowRate": -0.005505,
+        "absRate": 0.005505,
+        "total": 4905
+      },
+      {
+        "city": "Espoo",
+        "incoming": 105560,
+        "outgoing": 104483,
+        "net": 1077,
+        "netInflowRate": 0.005128,
+        "absRate": 0.005128,
+        "total": 210043
+      },
+      {
+        "city": "Lappeenranta",
+        "incoming": 1451073,
+        "outgoing": 1443617,
+        "net": 7456,
+        "netInflowRate": 0.002576,
+        "absRate": 0.002576,
+        "total": 2894690
+      },
+      {
+        "city": "Joensuu",
+        "incoming": 37682,
+        "outgoing": 37872,
+        "net": -190,
+        "netInflowRate": -0.002515,
+        "absRate": 0.002515,
+        "total": 75554
+      },
+      {
+        "city": "Turku",
+        "incoming": 542694,
+        "outgoing": 540447,
+        "net": 2247,
+        "netInflowRate": 0.002075,
+        "absRate": 0.002075,
+        "total": 1083141
+      },
+      {
+        "city": "Helsinki",
+        "incoming": 5049354,
+        "outgoing": 5068280,
+        "net": -18926,
+        "netInflowRate": -0.001871,
+        "absRate": 0.001871,
+        "total": 10117634
+      },
+      {
+        "city": "Jyvaskyla",
+        "incoming": 430352,
+        "outgoing": 428951,
+        "net": 1401,
+        "netInflowRate": 0.00163,
+        "absRate": 0.00163,
+        "total": 859303
+      },
+      {
+        "city": "Tampere",
+        "incoming": 434493,
+        "outgoing": 433190,
+        "net": 1303,
+        "netInflowRate": 0.001502,
+        "absRate": 0.001502,
+        "total": 867683
+      },
+      {
+        "city": "Oulu",
+        "incoming": 501955,
+        "outgoing": 501088,
+        "net": 867,
+        "netInflowRate": 0.000864,
+        "absRate": 0.000864,
+        "total": 1003043
+      },
+      {
+        "city": "Kuopio",
+        "incoming": 401922,
+        "outgoing": 402019,
+        "net": -97,
+        "netInflowRate": -0.000121,
+        "absRate": 0.000121,
+        "total": 803941
+      },
+      {
+        "city": "Nurmijarvi",
+        "incoming": 29,
+        "outgoing": 29,
+        "net": 0,
+        "netInflowRate": 0.0,
+        "absRate": 0.0,
+        "total": 58
+      }
+    ],
+    "2009-2013": [
+      {
+        "city": "Nurmijarvi",
+        "incoming": 2,
+        "outgoing": 4,
+        "net": -2,
+        "netInflowRate": -0.333333,
+        "absRate": 0.333333,
+        "total": 6
+      },
+      {
+        "city": "Jarvenpaa",
+        "incoming": 56,
+        "outgoing": 42,
+        "net": 14,
+        "netInflowRate": 0.142857,
+        "absRate": 0.142857,
+        "total": 98
+      },
+      {
+        "city": "Porvoo",
+        "incoming": 477,
+        "outgoing": 385,
+        "net": 92,
+        "netInflowRate": 0.106729,
+        "absRate": 0.106729,
+        "total": 862
+      },
+      {
+        "city": "Lohja",
+        "incoming": 64,
+        "outgoing": 53,
+        "net": 11,
+        "netInflowRate": 0.094017,
+        "absRate": 0.094017,
+        "total": 117
+      },
+      {
+        "city": "Rauma",
+        "incoming": 234,
+        "outgoing": 205,
+        "net": 29,
+        "netInflowRate": 0.066059,
+        "absRate": 0.066059,
+        "total": 439
+      },
+      {
+        "city": "Vantaa",
+        "incoming": 3940,
+        "outgoing": 3609,
+        "net": 331,
+        "netInflowRate": 0.043847,
+        "absRate": 0.043847,
+        "total": 7549
+      },
+      {
+        "city": "Lahti",
+        "incoming": 3163,
+        "outgoing": 3042,
+        "net": 121,
+        "netInflowRate": 0.0195,
+        "absRate": 0.0195,
+        "total": 6205
+      },
+      {
+        "city": "Hameenlinna",
+        "incoming": 977,
+        "outgoing": 942,
+        "net": 35,
+        "netInflowRate": 0.018239,
+        "absRate": 0.018239,
+        "total": 1919
+      },
+      {
+        "city": "Kotka",
+        "incoming": 659,
+        "outgoing": 638,
+        "net": 21,
+        "netInflowRate": 0.016191,
+        "absRate": 0.016191,
+        "total": 1297
+      },
+      {
+        "city": "Other",
+        "incoming": 71628,
+        "outgoing": 69730,
+        "net": 1898,
+        "netInflowRate": 0.013427,
+        "absRate": 0.013427,
+        "total": 141358
+      },
+      {
+        "city": "Vaasa",
+        "incoming": 12125,
+        "outgoing": 11902,
+        "net": 223,
+        "netInflowRate": 0.009281,
+        "absRate": 0.009281,
+        "total": 24027
+      },
+      {
+        "city": "Pori",
+        "incoming": 1833,
+        "outgoing": 1801,
+        "net": 32,
+        "netInflowRate": 0.008806,
+        "absRate": 0.008806,
+        "total": 3634
+      },
+      {
+        "city": "Mikkeli",
+        "incoming": 1583,
+        "outgoing": 1603,
+        "net": -20,
+        "netInflowRate": -0.006277,
+        "absRate": 0.006277,
+        "total": 3186
+      },
+      {
+        "city": "Tampere",
+        "incoming": 140242,
+        "outgoing": 138537,
+        "net": 1705,
+        "netInflowRate": 0.006116,
+        "absRate": 0.006116,
+        "total": 278779
+      },
+      {
+        "city": "Espoo",
+        "incoming": 35084,
+        "outgoing": 35462,
+        "net": -378,
+        "netInflowRate": -0.005358,
+        "absRate": 0.005358,
+        "total": 70546
+      },
+      {
+        "city": "Turku",
+        "incoming": 180879,
+        "outgoing": 179311,
+        "net": 1568,
+        "netInflowRate": 0.004353,
+        "absRate": 0.004353,
+        "total": 360190
+      },
+      {
+        "city": "Lappeenranta",
+        "incoming": 553764,
+        "outgoing": 549209,
+        "net": 4555,
+        "netInflowRate": 0.00413,
+        "absRate": 0.00413,
+        "total": 1102973
+      },
+      {
+        "city": "Helsinki",
+        "incoming": 1921925,
+        "outgoing": 1933414,
+        "net": -11489,
+        "netInflowRate": -0.00298,
+        "absRate": 0.00298,
+        "total": 3855339
+      },
+      {
+        "city": "Jyvaskyla",
+        "incoming": 176574,
+        "outgoing": 175825,
+        "net": 749,
+        "netInflowRate": 0.002125,
+        "absRate": 0.002125,
+        "total": 352399
+      },
+      {
+        "city": "Oulu",
+        "incoming": 169666,
+        "outgoing": 169083,
+        "net": 583,
+        "netInflowRate": 0.001721,
+        "absRate": 0.001721,
+        "total": 338749
+      },
+      {
+        "city": "Joensuu",
+        "incoming": 10588,
+        "outgoing": 10612,
+        "net": -24,
+        "netInflowRate": -0.001132,
+        "absRate": 0.001132,
+        "total": 21200
+      },
+      {
+        "city": "Kuopio",
+        "incoming": 130704,
+        "outgoing": 130758,
+        "net": -54,
+        "netInflowRate": -0.000207,
+        "absRate": 0.000207,
+        "total": 261462
+      }
+    ],
+    "2014-2018": [
+      {
+        "city": "Lohja",
+        "incoming": 374,
+        "outgoing": 328,
+        "net": 46,
+        "netInflowRate": 0.065527,
+        "absRate": 0.065527,
+        "total": 702
+      },
+      {
+        "city": "Nurmijarvi",
+        "incoming": 27,
+        "outgoing": 25,
+        "net": 2,
+        "netInflowRate": 0.038462,
+        "absRate": 0.038462,
+        "total": 52
+      },
+      {
+        "city": "Porvoo",
+        "incoming": 525,
+        "outgoing": 494,
+        "net": 31,
+        "netInflowRate": 0.030422,
+        "absRate": 0.030422,
+        "total": 1019
+      },
+      {
+        "city": "Kotka",
+        "incoming": 769,
+        "outgoing": 726,
+        "net": 43,
+        "netInflowRate": 0.028763,
+        "absRate": 0.028763,
+        "total": 1495
+      },
+      {
+        "city": "Rauma",
+        "incoming": 163,
+        "outgoing": 171,
+        "net": -8,
+        "netInflowRate": -0.023952,
+        "absRate": 0.023952,
+        "total": 334
+      },
+      {
+        "city": "Hameenlinna",
+        "incoming": 1305,
+        "outgoing": 1358,
+        "net": -53,
+        "netInflowRate": -0.019902,
+        "absRate": 0.019902,
+        "total": 2663
+      },
+      {
+        "city": "Vantaa",
+        "incoming": 5471,
+        "outgoing": 5310,
+        "net": 161,
+        "netInflowRate": 0.014934,
+        "absRate": 0.014934,
+        "total": 10781
+      },
+      {
+        "city": "Vaasa",
+        "incoming": 17744,
+        "outgoing": 17277,
+        "net": 467,
+        "netInflowRate": 0.013335,
+        "absRate": 0.013335,
+        "total": 35021
+      },
+      {
+        "city": "Pori",
+        "incoming": 3178,
+        "outgoing": 3124,
+        "net": 54,
+        "netInflowRate": 0.008569,
+        "absRate": 0.008569,
+        "total": 6302
+      },
+      {
+        "city": "Jarvenpaa",
+        "incoming": 118,
+        "outgoing": 116,
+        "net": 2,
+        "netInflowRate": 0.008547,
+        "absRate": 0.008547,
+        "total": 234
+      },
+      {
+        "city": "Espoo",
+        "incoming": 63558,
+        "outgoing": 62523,
+        "net": 1035,
+        "netInflowRate": 0.008209,
+        "absRate": 0.008209,
+        "total": 126081
+      },
+      {
+        "city": "Jyvaskyla",
+        "incoming": 245857,
+        "outgoing": 243576,
+        "net": 2281,
+        "netInflowRate": 0.00466,
+        "absRate": 0.00466,
+        "total": 489433
+      },
+      {
+        "city": "Other",
+        "incoming": 130467,
+        "outgoing": 129440,
+        "net": 1027,
+        "netInflowRate": 0.003951,
+        "absRate": 0.003951,
+        "total": 259907
+      },
+      {
+        "city": "Lappeenranta",
+        "incoming": 896050,
+        "outgoing": 890317,
+        "net": 5733,
+        "netInflowRate": 0.003209,
+        "absRate": 0.003209,
+        "total": 1786367
+      },
+      {
+        "city": "Mikkeli",
+        "incoming": 2270,
+        "outgoing": 2256,
+        "net": 14,
+        "netInflowRate": 0.003093,
+        "absRate": 0.003093,
+        "total": 4526
+      },
+      {
+        "city": "Helsinki",
+        "incoming": 2984273,
+        "outgoing": 2997201,
+        "net": -12928,
+        "netInflowRate": -0.002161,
+        "absRate": 0.002161,
+        "total": 5981474
+      },
+      {
+        "city": "Turku",
+        "incoming": 334839,
+        "outgoing": 333690,
+        "net": 1149,
+        "netInflowRate": 0.001719,
+        "absRate": 0.001719,
+        "total": 668529
+      },
+      {
+        "city": "Joensuu",
+        "incoming": 24383,
+        "outgoing": 24466,
+        "net": -83,
+        "netInflowRate": -0.001699,
+        "absRate": 0.001699,
+        "total": 48849
+      },
+      {
+        "city": "Oulu",
+        "incoming": 315590,
+        "outgoing": 314648,
+        "net": 942,
+        "netInflowRate": 0.001495,
+        "absRate": 0.001495,
+        "total": 630238
+      },
+      {
+        "city": "Tampere",
+        "incoming": 273293,
+        "outgoing": 273139,
+        "net": 154,
+        "netInflowRate": 0.000282,
+        "absRate": 0.000282,
+        "total": 546432
+      },
+      {
+        "city": "Lahti",
+        "incoming": 2544,
+        "outgoing": 2543,
+        "net": 1,
+        "netInflowRate": 0.000197,
+        "absRate": 0.000197,
+        "total": 5087
+      },
+      {
+        "city": "Kuopio",
+        "incoming": 253124,
+        "outgoing": 253194,
+        "net": -70,
+        "netInflowRate": -0.000138,
+        "absRate": 0.000138,
+        "total": 506318
+      }
+    ]
+  },
+  "asymmetryPairs": {
+    "2008-2018": [
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Pori",
+        "forward": 0,
+        "backward": 58,
+        "total": 58,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Vaasa",
+        "forward": 0,
+        "backward": 42,
+        "total": 42,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Porvoo",
+        "forward": 33,
+        "backward": 0,
+        "total": 33,
+        "asymmetry": 1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Porvoo",
+        "forward": 0,
+        "backward": 20,
+        "total": 20,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Porvoo"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Kotka",
+        "forward": 0,
+        "backward": 16,
+        "total": 16,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Vantaa",
+        "forward": 0,
+        "backward": 14,
+        "total": 14,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Pori",
+        "cityB": "Rauma",
+        "forward": 13,
+        "backward": 0,
+        "total": 13,
+        "asymmetry": 1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Lohja",
+        "cityB": "Pori",
+        "forward": 0,
+        "backward": 12,
+        "total": 12,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Nurmijarvi",
+        "cityB": "Vantaa",
+        "forward": 0,
+        "backward": 10,
+        "total": 10,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Pori",
+        "cityB": "Porvoo",
+        "forward": 7,
+        "backward": 0,
+        "total": 7,
+        "asymmetry": 1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Rauma",
+        "forward": 0,
+        "backward": 5,
+        "total": 5,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Rauma"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Lohja",
+        "forward": 0,
+        "backward": 2,
+        "total": 2,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Lohja"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Mikkeli",
+        "forward": 0,
+        "backward": 1,
+        "total": 1,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Nurmijarvi",
+        "forward": 0,
+        "backward": 1,
+        "total": 1,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Nurmijarvi"
+      },
+      {
+        "cityA": "Rauma",
+        "cityB": "Vantaa",
+        "forward": 0,
+        "backward": 1,
+        "total": 1,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Rauma",
+        "forward": 1,
+        "backward": 0,
+        "total": 1,
+        "asymmetry": 1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Jarvenpaa",
+        "cityB": "Kuopio",
+        "forward": 1,
+        "backward": 0,
+        "total": 1,
+        "asymmetry": 1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Jarvenpaa"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Vaasa",
+        "forward": 1,
+        "backward": 42,
+        "total": 43,
+        "asymmetry": -0.953488,
+        "absAsymmetry": 0.953488,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Joensuu",
+        "forward": 2,
+        "backward": 29,
+        "total": 31,
+        "asymmetry": -0.870968,
+        "absAsymmetry": 0.870968,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Vantaa",
+        "forward": 14,
+        "backward": 1,
+        "total": 15,
+        "asymmetry": 0.866667,
+        "absAsymmetry": 0.866667,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Nurmijarvi",
+        "forward": 1,
+        "backward": 13,
+        "total": 14,
+        "asymmetry": -0.857143,
+        "absAsymmetry": 0.857143,
+        "dominant": "Nurmijarvi"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Vaasa",
+        "forward": 47,
+        "backward": 4,
+        "total": 51,
+        "asymmetry": 0.843137,
+        "absAsymmetry": 0.843137,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Jarvenpaa",
+        "cityB": "Tampere",
+        "forward": 1,
+        "backward": 6,
+        "total": 7,
+        "asymmetry": -0.714286,
+        "absAsymmetry": 0.714286,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Rauma",
+        "forward": 137,
+        "backward": 30,
+        "total": 167,
+        "asymmetry": 0.640719,
+        "absAsymmetry": 0.640719,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Vaasa",
+        "forward": 72,
+        "backward": 328,
+        "total": 400,
+        "asymmetry": -0.64,
+        "absAsymmetry": 0.64,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Vaasa",
+        "forward": 352,
+        "backward": 1483,
+        "total": 1835,
+        "asymmetry": -0.616349,
+        "absAsymmetry": 0.616349,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Mikkeli",
+        "forward": 81,
+        "backward": 315,
+        "total": 396,
+        "asymmetry": -0.590909,
+        "absAsymmetry": 0.590909,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Rauma",
+        "cityB": "Turku",
+        "forward": 66,
+        "backward": 19,
+        "total": 85,
+        "asymmetry": 0.552941,
+        "absAsymmetry": 0.552941,
+        "dominant": "Rauma"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Lahti",
+        "forward": 75,
+        "backward": 23,
+        "total": 98,
+        "asymmetry": 0.530612,
+        "absAsymmetry": 0.530612,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Tampere",
+        "forward": 114,
+        "backward": 36,
+        "total": 150,
+        "asymmetry": 0.52,
+        "absAsymmetry": 0.52,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Lappeenranta",
+        "forward": 446,
+        "backward": 1388,
+        "total": 1834,
+        "asymmetry": -0.513631,
+        "absAsymmetry": 0.513631,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Vantaa",
+        "forward": 84,
+        "backward": 28,
+        "total": 112,
+        "asymmetry": 0.5,
+        "absAsymmetry": 0.5,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Lohja",
+        "forward": 2,
+        "backward": 6,
+        "total": 8,
+        "asymmetry": -0.5,
+        "absAsymmetry": 0.5,
+        "dominant": "Lohja"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Kuopio",
+        "forward": 282,
+        "backward": 97,
+        "total": 379,
+        "asymmetry": 0.488127,
+        "absAsymmetry": 0.488127,
+        "dominant": "Hameenlinna"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Vantaa",
+        "forward": 55,
+        "backward": 19,
+        "total": 74,
+        "asymmetry": 0.486486,
+        "absAsymmetry": 0.486486,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Pori",
+        "forward": 59,
+        "backward": 21,
+        "total": 80,
+        "asymmetry": 0.475,
+        "absAsymmetry": 0.475,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Turku",
+        "forward": 2954,
+        "backward": 1061,
+        "total": 4015,
+        "asymmetry": 0.471482,
+        "absAsymmetry": 0.471482,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Kotka",
+        "forward": 8,
+        "backward": 21,
+        "total": 29,
+        "asymmetry": -0.448276,
+        "absAsymmetry": 0.448276,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Tampere",
+        "forward": 55,
+        "backward": 142,
+        "total": 197,
+        "asymmetry": -0.441624,
+        "absAsymmetry": 0.441624,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Other",
+        "forward": 21913,
+        "backward": 8580,
+        "total": 30493,
+        "asymmetry": 0.437248,
+        "absAsymmetry": 0.437248,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Oulu",
+        "forward": 45,
+        "backward": 18,
+        "total": 63,
+        "asymmetry": 0.428571,
+        "absAsymmetry": 0.428571,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Rauma",
+        "forward": 23,
+        "backward": 56,
+        "total": 79,
+        "asymmetry": -0.417722,
+        "absAsymmetry": 0.417722,
+        "dominant": "Rauma"
+      },
+      {
+        "cityA": "Lohja",
+        "cityB": "Oulu",
+        "forward": 12,
+        "backward": 5,
+        "total": 17,
+        "asymmetry": 0.411765,
+        "absAsymmetry": 0.411765,
+        "dominant": "Lohja"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Pori",
+        "forward": 81,
+        "backward": 34,
+        "total": 115,
+        "asymmetry": 0.408696,
+        "absAsymmetry": 0.408696,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Mikkeli",
+        "forward": 12,
+        "backward": 28,
+        "total": 40,
+        "asymmetry": -0.4,
+        "absAsymmetry": 0.4,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Lohja",
+        "forward": 7,
+        "backward": 3,
+        "total": 10,
+        "asymmetry": 0.4,
+        "absAsymmetry": 0.4,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Vaasa",
+        "forward": 85,
+        "backward": 195,
+        "total": 280,
+        "asymmetry": -0.392857,
+        "absAsymmetry": 0.392857,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Vaasa",
+        "forward": 1144,
+        "backward": 2535,
+        "total": 3679,
+        "asymmetry": -0.378092,
+        "absAsymmetry": 0.378092,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Rauma",
+        "cityB": "Tampere",
+        "forward": 50,
+        "backward": 23,
+        "total": 73,
+        "asymmetry": 0.369863,
+        "absAsymmetry": 0.369863,
+        "dominant": "Rauma"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Jyvaskyla",
+        "forward": 18,
+        "backward": 39,
+        "total": 57,
+        "asymmetry": -0.368421,
+        "absAsymmetry": 0.368421,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Nurmijarvi",
+        "cityB": "Tampere",
+        "forward": 3,
+        "backward": 6,
+        "total": 9,
+        "asymmetry": -0.333333,
+        "absAsymmetry": 0.333333,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Other",
+        "forward": 186,
+        "backward": 363,
+        "total": 549,
+        "asymmetry": -0.322404,
+        "absAsymmetry": 0.322404,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Hameenlinna",
+        "forward": 9,
+        "backward": 17,
+        "total": 26,
+        "asymmetry": -0.307692,
+        "absAsymmetry": 0.307692,
+        "dominant": "Hameenlinna"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Helsinki",
+        "forward": 19897,
+        "backward": 35065,
+        "total": 54962,
+        "asymmetry": -0.275972,
+        "absAsymmetry": 0.275972,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Other",
+        "forward": 60,
+        "backward": 105,
+        "total": 165,
+        "asymmetry": -0.272727,
+        "absAsymmetry": 0.272727,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Lahti",
+        "forward": 29,
+        "backward": 50,
+        "total": 79,
+        "asymmetry": -0.265823,
+        "absAsymmetry": 0.265823,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Lohja",
+        "cityB": "Other",
+        "forward": 24,
+        "backward": 14,
+        "total": 38,
+        "asymmetry": 0.263158,
+        "absAsymmetry": 0.263158,
+        "dominant": "Lohja"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Porvoo",
+        "forward": 29,
+        "backward": 17,
+        "total": 46,
+        "asymmetry": 0.26087,
+        "absAsymmetry": 0.26087,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Tampere",
+        "forward": 1850,
+        "backward": 3097,
+        "total": 4947,
+        "asymmetry": -0.252072,
+        "absAsymmetry": 0.252072,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Lohja",
+        "cityB": "Turku",
+        "forward": 88,
+        "backward": 146,
+        "total": 234,
+        "asymmetry": -0.247863,
+        "absAsymmetry": 0.247863,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Jyvaskyla",
+        "forward": 1992,
+        "backward": 1203,
+        "total": 3195,
+        "asymmetry": 0.246948,
+        "absAsymmetry": 0.246948,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Tampere",
+        "forward": 1600,
+        "backward": 969,
+        "total": 2569,
+        "asymmetry": 0.245621,
+        "absAsymmetry": 0.245621,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Lahti",
+        "forward": 28,
+        "backward": 46,
+        "total": 74,
+        "asymmetry": -0.243243,
+        "absAsymmetry": 0.243243,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Turku",
+        "forward": 123,
+        "backward": 75,
+        "total": 198,
+        "asymmetry": 0.242424,
+        "absAsymmetry": 0.242424,
+        "dominant": "Hameenlinna"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Oulu",
+        "forward": 60,
+        "backward": 96,
+        "total": 156,
+        "asymmetry": -0.230769,
+        "absAsymmetry": 0.230769,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Pori",
+        "forward": 433,
+        "backward": 691,
+        "total": 1124,
+        "asymmetry": -0.229537,
+        "absAsymmetry": 0.229537,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Rauma",
+        "forward": 19,
+        "backward": 30,
+        "total": 49,
+        "asymmetry": -0.22449,
+        "absAsymmetry": 0.22449,
+        "dominant": "Rauma"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Lappeenranta",
+        "forward": 731,
+        "backward": 1133,
+        "total": 1864,
+        "asymmetry": -0.215665,
+        "absAsymmetry": 0.215665,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Lahti",
+        "forward": 46,
+        "backward": 71,
+        "total": 117,
+        "asymmetry": -0.213675,
+        "absAsymmetry": 0.213675,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Other",
+        "forward": 888,
+        "backward": 580,
+        "total": 1468,
+        "asymmetry": 0.209809,
+        "absAsymmetry": 0.209809,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Porvoo",
+        "forward": 104,
+        "backward": 68,
+        "total": 172,
+        "asymmetry": 0.209302,
+        "absAsymmetry": 0.209302,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Rauma",
+        "forward": 29,
+        "backward": 19,
+        "total": 48,
+        "asymmetry": 0.208333,
+        "absAsymmetry": 0.208333,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Rauma",
+        "forward": 53,
+        "backward": 35,
+        "total": 88,
+        "asymmetry": 0.204545,
+        "absAsymmetry": 0.204545,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Mikkeli",
+        "forward": 827,
+        "backward": 549,
+        "total": 1376,
+        "asymmetry": 0.202035,
+        "absAsymmetry": 0.202035,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Porvoo",
+        "cityB": "Tampere",
+        "forward": 22,
+        "backward": 33,
+        "total": 55,
+        "asymmetry": -0.2,
+        "absAsymmetry": 0.2,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Pori",
+        "forward": 3,
+        "backward": 2,
+        "total": 5,
+        "asymmetry": 0.2,
+        "absAsymmetry": 0.2,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Vaasa",
+        "forward": 11344,
+        "backward": 7628,
+        "total": 18972,
+        "asymmetry": 0.195868,
+        "absAsymmetry": 0.195868,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Vaasa",
+        "forward": 87,
+        "backward": 59,
+        "total": 146,
+        "asymmetry": 0.191781,
+        "absAsymmetry": 0.191781,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Lohja",
+        "forward": 25,
+        "backward": 17,
+        "total": 42,
+        "asymmetry": 0.190476,
+        "absAsymmetry": 0.190476,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Other",
+        "forward": 273,
+        "backward": 187,
+        "total": 460,
+        "asymmetry": 0.186957,
+        "absAsymmetry": 0.186957,
+        "dominant": "Hameenlinna"
+      },
+      {
+        "cityA": "Jarvenpaa",
+        "cityB": "Other",
+        "forward": 29,
+        "backward": 42,
+        "total": 71,
+        "asymmetry": -0.183099,
+        "absAsymmetry": 0.183099,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Rauma",
+        "forward": 46,
+        "backward": 32,
+        "total": 78,
+        "asymmetry": 0.179487,
+        "absAsymmetry": 0.179487,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Mikkeli",
+        "forward": 204,
+        "backward": 292,
+        "total": 496,
+        "asymmetry": -0.177419,
+        "absAsymmetry": 0.177419,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Vantaa",
+        "forward": 295,
+        "backward": 208,
+        "total": 503,
+        "asymmetry": 0.172962,
+        "absAsymmetry": 0.172962,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Pori",
+        "cityB": "Tampere",
+        "forward": 589,
+        "backward": 417,
+        "total": 1006,
+        "asymmetry": 0.170974,
+        "absAsymmetry": 0.170974,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Turku",
+        "forward": 4760,
+        "backward": 3370,
+        "total": 8130,
+        "asymmetry": 0.170972,
+        "absAsymmetry": 0.170972,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Kuopio",
+        "forward": 4510,
+        "backward": 6356,
+        "total": 10866,
+        "asymmetry": -0.169888,
+        "absAsymmetry": 0.169888,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Tampere",
+        "forward": 6428,
+        "backward": 4569,
+        "total": 10997,
+        "asymmetry": 0.169046,
+        "absAsymmetry": 0.169046,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Pori",
+        "cityB": "Turku",
+        "forward": 1138,
+        "backward": 1590,
+        "total": 2728,
+        "asymmetry": -0.165689,
+        "absAsymmetry": 0.165689,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Tampere",
+        "forward": 14526,
+        "backward": 10412,
+        "total": 24938,
+        "asymmetry": 0.164969,
+        "absAsymmetry": 0.164969,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Vantaa",
+        "forward": 746,
+        "backward": 536,
+        "total": 1282,
+        "asymmetry": 0.163807,
+        "absAsymmetry": 0.163807,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Turku",
+        "forward": 1142,
+        "backward": 1574,
+        "total": 2716,
+        "asymmetry": -0.159057,
+        "absAsymmetry": 0.159057,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Porvoo",
+        "forward": 117,
+        "backward": 85,
+        "total": 202,
+        "asymmetry": 0.158416,
+        "absAsymmetry": 0.158416,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Jarvenpaa",
+        "forward": 11,
+        "backward": 8,
+        "total": 19,
+        "asymmetry": 0.157895,
+        "absAsymmetry": 0.157895,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Other",
+        "forward": 4510,
+        "backward": 6162,
+        "total": 10672,
+        "asymmetry": -0.154798,
+        "absAsymmetry": 0.154798,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Pori",
+        "forward": 27,
+        "backward": 20,
+        "total": 47,
+        "asymmetry": 0.148936,
+        "absAsymmetry": 0.148936,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Pori",
+        "forward": 124,
+        "backward": 92,
+        "total": 216,
+        "asymmetry": 0.148148,
+        "absAsymmetry": 0.148148,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Turku",
+        "cityB": "Vaasa",
+        "forward": 614,
+        "backward": 824,
+        "total": 1438,
+        "asymmetry": -0.146036,
+        "absAsymmetry": 0.146036,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Lohja",
+        "forward": 69,
+        "backward": 92,
+        "total": 161,
+        "asymmetry": -0.142857,
+        "absAsymmetry": 0.142857,
+        "dominant": "Lohja"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Mikkeli",
+        "forward": 30,
+        "backward": 40,
+        "total": 70,
+        "asymmetry": -0.142857,
+        "absAsymmetry": 0.142857,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Porvoo",
+        "cityB": "Vantaa",
+        "forward": 4,
+        "backward": 3,
+        "total": 7,
+        "asymmetry": 0.142857,
+        "absAsymmetry": 0.142857,
+        "dominant": "Porvoo"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Kotka",
+        "forward": 41,
+        "backward": 31,
+        "total": 72,
+        "asymmetry": 0.138889,
+        "absAsymmetry": 0.138889,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Vaasa",
+        "forward": 1514,
+        "backward": 1146,
+        "total": 2660,
+        "asymmetry": 0.138346,
+        "absAsymmetry": 0.138346,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Porvoo",
+        "forward": 25,
+        "backward": 19,
+        "total": 44,
+        "asymmetry": 0.136364,
+        "absAsymmetry": 0.136364,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Kuopio",
+        "forward": 152,
+        "backward": 199,
+        "total": 351,
+        "asymmetry": -0.133903,
+        "absAsymmetry": 0.133903,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Oulu",
+        "forward": 4340,
+        "backward": 5666,
+        "total": 10006,
+        "asymmetry": -0.13252,
+        "absAsymmetry": 0.13252,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Tampere",
+        "cityB": "Vaasa",
+        "forward": 1000,
+        "backward": 1297,
+        "total": 2297,
+        "asymmetry": -0.129299,
+        "absAsymmetry": 0.129299,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Kotka",
+        "forward": 385,
+        "backward": 297,
+        "total": 682,
+        "asymmetry": 0.129032,
+        "absAsymmetry": 0.129032,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Vaasa",
+        "forward": 48,
+        "backward": 62,
+        "total": 110,
+        "asymmetry": -0.127273,
+        "absAsymmetry": 0.127273,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Vantaa",
+        "forward": 236,
+        "backward": 184,
+        "total": 420,
+        "asymmetry": 0.12381,
+        "absAsymmetry": 0.12381,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Pori",
+        "cityB": "Vaasa",
+        "forward": 40,
+        "backward": 51,
+        "total": 91,
+        "asymmetry": -0.120879,
+        "absAsymmetry": 0.120879,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Lahti",
+        "forward": 133,
+        "backward": 168,
+        "total": 301,
+        "asymmetry": -0.116279,
+        "absAsymmetry": 0.116279,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Lappeenranta",
+        "forward": 499,
+        "backward": 625,
+        "total": 1124,
+        "asymmetry": -0.1121,
+        "absAsymmetry": 0.1121,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Pori",
+        "cityB": "Vantaa",
+        "forward": 12,
+        "backward": 15,
+        "total": 27,
+        "asymmetry": -0.111111,
+        "absAsymmetry": 0.111111,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Tampere",
+        "forward": 11628,
+        "backward": 9306,
+        "total": 20934,
+        "asymmetry": 0.11092,
+        "absAsymmetry": 0.11092,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Tampere",
+        "cityB": "Turku",
+        "forward": 26768,
+        "backward": 21500,
+        "total": 48268,
+        "asymmetry": 0.109141,
+        "absAsymmetry": 0.109141,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Vaasa",
+        "forward": 17,
+        "backward": 21,
+        "total": 38,
+        "asymmetry": -0.105263,
+        "absAsymmetry": 0.105263,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Other",
+        "forward": 2441,
+        "backward": 1993,
+        "total": 4434,
+        "asymmetry": 0.101037,
+        "absAsymmetry": 0.101037,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Jyvaskyla",
+        "forward": 1056,
+        "backward": 1288,
+        "total": 2344,
+        "asymmetry": -0.098976,
+        "absAsymmetry": 0.098976,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Mikkeli",
+        "forward": 19,
+        "backward": 23,
+        "total": 42,
+        "asymmetry": -0.095238,
+        "absAsymmetry": 0.095238,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Vantaa",
+        "forward": 1001,
+        "backward": 1206,
+        "total": 2207,
+        "asymmetry": -0.092886,
+        "absAsymmetry": 0.092886,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Other",
+        "forward": 47942,
+        "backward": 57604,
+        "total": 105546,
+        "asymmetry": -0.091543,
+        "absAsymmetry": 0.091543,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Other",
+        "forward": 2720,
+        "backward": 3256,
+        "total": 5976,
+        "asymmetry": -0.089692,
+        "absAsymmetry": 0.089692,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Oulu",
+        "forward": 1628,
+        "backward": 1937,
+        "total": 3565,
+        "asymmetry": -0.086676,
+        "absAsymmetry": 0.086676,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Tampere",
+        "forward": 900,
+        "backward": 1070,
+        "total": 1970,
+        "asymmetry": -0.086294,
+        "absAsymmetry": 0.086294,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Turku",
+        "cityB": "Vantaa",
+        "forward": 308,
+        "backward": 366,
+        "total": 674,
+        "asymmetry": -0.086053,
+        "absAsymmetry": 0.086053,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Joensuu",
+        "forward": 6823,
+        "backward": 5743,
+        "total": 12566,
+        "asymmetry": 0.085946,
+        "absAsymmetry": 0.085946,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Pori",
+        "forward": 27,
+        "backward": 32,
+        "total": 59,
+        "asymmetry": -0.084746,
+        "absAsymmetry": 0.084746,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Porvoo",
+        "forward": 39,
+        "backward": 33,
+        "total": 72,
+        "asymmetry": 0.083333,
+        "absAsymmetry": 0.083333,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Oulu",
+        "forward": 1108,
+        "backward": 1304,
+        "total": 2412,
+        "asymmetry": -0.08126,
+        "absAsymmetry": 0.08126,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Porvoo",
+        "forward": 109,
+        "backward": 128,
+        "total": 237,
+        "asymmetry": -0.080169,
+        "absAsymmetry": 0.080169,
+        "dominant": "Porvoo"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Pori",
+        "forward": 68,
+        "backward": 58,
+        "total": 126,
+        "asymmetry": 0.079365,
+        "absAsymmetry": 0.079365,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Vaasa",
+        "cityB": "Vantaa",
+        "forward": 41,
+        "backward": 35,
+        "total": 76,
+        "asymmetry": 0.078947,
+        "absAsymmetry": 0.078947,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Kuopio",
+        "forward": 1878,
+        "backward": 2197,
+        "total": 4075,
+        "asymmetry": -0.078282,
+        "absAsymmetry": 0.078282,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Jarvenpaa",
+        "cityB": "Jyvaskyla",
+        "forward": 7,
+        "backward": 6,
+        "total": 13,
+        "asymmetry": 0.076923,
+        "absAsymmetry": 0.076923,
+        "dominant": "Jarvenpaa"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Oulu",
+        "forward": 438,
+        "backward": 377,
+        "total": 815,
+        "asymmetry": 0.074847,
+        "absAsymmetry": 0.074847,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Turku",
+        "forward": 313,
+        "backward": 362,
+        "total": 675,
+        "asymmetry": -0.072593,
+        "absAsymmetry": 0.072593,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Mikkeli",
+        "forward": 110,
+        "backward": 127,
+        "total": 237,
+        "asymmetry": -0.07173,
+        "absAsymmetry": 0.07173,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Kuopio",
+        "forward": 2783,
+        "backward": 3184,
+        "total": 5967,
+        "asymmetry": -0.067203,
+        "absAsymmetry": 0.067203,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Lappeenranta",
+        "forward": 163,
+        "backward": 143,
+        "total": 306,
+        "asymmetry": 0.065359,
+        "absAsymmetry": 0.065359,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Lappeenranta",
+        "forward": 52,
+        "backward": 46,
+        "total": 98,
+        "asymmetry": 0.061224,
+        "absAsymmetry": 0.061224,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Kotka",
+        "forward": 61,
+        "backward": 54,
+        "total": 115,
+        "asymmetry": 0.06087,
+        "absAsymmetry": 0.06087,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Oulu",
+        "forward": 1761,
+        "backward": 1987,
+        "total": 3748,
+        "asymmetry": -0.060299,
+        "absAsymmetry": 0.060299,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Tampere",
+        "forward": 387,
+        "backward": 435,
+        "total": 822,
+        "asymmetry": -0.058394,
+        "absAsymmetry": 0.058394,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Lahti",
+        "forward": 1344,
+        "backward": 1506,
+        "total": 2850,
+        "asymmetry": -0.056842,
+        "absAsymmetry": 0.056842,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Turku",
+        "forward": 109,
+        "backward": 121,
+        "total": 230,
+        "asymmetry": -0.052174,
+        "absAsymmetry": 0.052174,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Turku",
+        "forward": 3606,
+        "backward": 3959,
+        "total": 7565,
+        "asymmetry": -0.046662,
+        "absAsymmetry": 0.046662,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Tampere",
+        "forward": 3293,
+        "backward": 3029,
+        "total": 6322,
+        "asymmetry": 0.041759,
+        "absAsymmetry": 0.041759,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Lohja",
+        "cityB": "Tampere",
+        "forward": 25,
+        "backward": 27,
+        "total": 52,
+        "asymmetry": -0.038462,
+        "absAsymmetry": 0.038462,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Kuopio",
+        "forward": 54759,
+        "backward": 50924,
+        "total": 105683,
+        "asymmetry": 0.036288,
+        "absAsymmetry": 0.036288,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Oulu",
+        "forward": 22393,
+        "backward": 20840,
+        "total": 43233,
+        "asymmetry": 0.035922,
+        "absAsymmetry": 0.035922,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Turku",
+        "forward": 24857,
+        "backward": 26606,
+        "total": 51463,
+        "asymmetry": -0.033986,
+        "absAsymmetry": 0.033986,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Vantaa",
+        "forward": 334,
+        "backward": 356,
+        "total": 690,
+        "asymmetry": -0.031884,
+        "absAsymmetry": 0.031884,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Joensuu",
+        "forward": 523,
+        "backward": 556,
+        "total": 1079,
+        "asymmetry": -0.030584,
+        "absAsymmetry": 0.030584,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Vantaa",
+        "forward": 3782,
+        "backward": 3563,
+        "total": 7345,
+        "asymmetry": 0.029816,
+        "absAsymmetry": 0.029816,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Porvoo",
+        "forward": 229,
+        "backward": 242,
+        "total": 471,
+        "asymmetry": -0.027601,
+        "absAsymmetry": 0.027601,
+        "dominant": "Porvoo"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Turku",
+        "forward": 78,
+        "backward": 74,
+        "total": 152,
+        "asymmetry": 0.026316,
+        "absAsymmetry": 0.026316,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Oulu",
+        "forward": 167,
+        "backward": 176,
+        "total": 343,
+        "asymmetry": -0.026239,
+        "absAsymmetry": 0.026239,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Turku",
+        "forward": 9801,
+        "backward": 10321,
+        "total": 20122,
+        "asymmetry": -0.025842,
+        "absAsymmetry": 0.025842,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Turku",
+        "forward": 58412,
+        "backward": 61406,
+        "total": 119818,
+        "asymmetry": -0.024988,
+        "absAsymmetry": 0.024988,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Oulu",
+        "forward": 58289,
+        "backward": 55646,
+        "total": 113935,
+        "asymmetry": 0.023197,
+        "absAsymmetry": 0.023197,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Oulu",
+        "forward": 8220,
+        "backward": 8586,
+        "total": 16806,
+        "asymmetry": -0.021778,
+        "absAsymmetry": 0.021778,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Lappeenranta",
+        "forward": 23,
+        "backward": 24,
+        "total": 47,
+        "asymmetry": -0.021277,
+        "absAsymmetry": 0.021277,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Lahti",
+        "forward": 228,
+        "backward": 237,
+        "total": 465,
+        "asymmetry": -0.019355,
+        "absAsymmetry": 0.019355,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Tampere",
+        "forward": 54926,
+        "backward": 56756,
+        "total": 111682,
+        "asymmetry": -0.016386,
+        "absAsymmetry": 0.016386,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Tampere",
+        "forward": 6709,
+        "backward": 6495,
+        "total": 13204,
+        "asymmetry": 0.016207,
+        "absAsymmetry": 0.016207,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Helsinki",
+        "forward": 397,
+        "backward": 409,
+        "total": 806,
+        "asymmetry": -0.014888,
+        "absAsymmetry": 0.014888,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Pori",
+        "forward": 272,
+        "backward": 278,
+        "total": 550,
+        "asymmetry": -0.010909,
+        "absAsymmetry": 0.010909,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Mikkeli",
+        "forward": 432,
+        "backward": 441,
+        "total": 873,
+        "asymmetry": -0.010309,
+        "absAsymmetry": 0.010309,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Tampere",
+        "cityB": "Vantaa",
+        "forward": 222,
+        "backward": 218,
+        "total": 440,
+        "asymmetry": 0.009091,
+        "absAsymmetry": 0.009091,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Vantaa",
+        "forward": 332,
+        "backward": 338,
+        "total": 670,
+        "asymmetry": -0.008955,
+        "absAsymmetry": 0.008955,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Pori",
+        "forward": 278,
+        "backward": 275,
+        "total": 553,
+        "asymmetry": 0.005425,
+        "absAsymmetry": 0.005425,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Porvoo",
+        "cityB": "Turku",
+        "forward": 203,
+        "backward": 205,
+        "total": 408,
+        "asymmetry": -0.004902,
+        "absAsymmetry": 0.004902,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Jyvaskyla",
+        "forward": 191681,
+        "backward": 193541,
+        "total": 385222,
+        "asymmetry": -0.004828,
+        "absAsymmetry": 0.004828,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Lappeenranta",
+        "forward": 1283959,
+        "backward": 1274989,
+        "total": 2558948,
+        "asymmetry": 0.003505,
+        "absAsymmetry": 0.003505,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Pori",
+        "forward": 167,
+        "backward": 166,
+        "total": 333,
+        "asymmetry": 0.003003,
+        "absAsymmetry": 0.003003,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Turku",
+        "forward": 15804,
+        "backward": 15854,
+        "total": 31658,
+        "asymmetry": -0.001579,
+        "absAsymmetry": 0.001579,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Other",
+        "forward": 247,
+        "backward": 247,
+        "total": 494,
+        "asymmetry": 0.0,
+        "absAsymmetry": 0.0,
+        "dominant": "Balanced"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Jarvenpaa",
+        "forward": 58,
+        "backward": 58,
+        "total": 116,
+        "asymmetry": 0.0,
+        "absAsymmetry": 0.0,
+        "dominant": "Balanced"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Lappeenranta",
+        "forward": 19,
+        "backward": 19,
+        "total": 38,
+        "asymmetry": 0.0,
+        "absAsymmetry": 0.0,
+        "dominant": "Balanced"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Vantaa",
+        "forward": 8,
+        "backward": 8,
+        "total": 16,
+        "asymmetry": 0.0,
+        "absAsymmetry": 0.0,
+        "dominant": "Balanced"
+      },
+      {
+        "cityA": "Jarvenpaa",
+        "cityB": "Turku",
+        "forward": 8,
+        "backward": 8,
+        "total": 16,
+        "asymmetry": 0.0,
+        "absAsymmetry": 0.0,
+        "dominant": "Balanced"
+      },
+      {
+        "cityA": "Lohja",
+        "cityB": "Vantaa",
+        "forward": 6,
+        "backward": 6,
+        "total": 12,
+        "asymmetry": 0.0,
+        "absAsymmetry": 0.0,
+        "dominant": "Balanced"
+      },
+      {
+        "cityA": "Jarvenpaa",
+        "cityB": "Lappeenranta",
+        "forward": 6,
+        "backward": 6,
+        "total": 12,
+        "asymmetry": 0.0,
+        "absAsymmetry": 0.0,
+        "dominant": "Balanced"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Lohja",
+        "forward": 2,
+        "backward": 2,
+        "total": 4,
+        "asymmetry": 0.0,
+        "absAsymmetry": 0.0,
+        "dominant": "Balanced"
+      },
+      {
+        "cityA": "Porvoo",
+        "cityB": "Vaasa",
+        "forward": 1,
+        "backward": 1,
+        "total": 2,
+        "asymmetry": 0.0,
+        "absAsymmetry": 0.0,
+        "dominant": "Balanced"
+      }
+    ],
+    "2009-2013": [
+      {
+        "cityA": "Kotka",
+        "cityB": "Vaasa",
+        "forward": 0,
+        "backward": 42,
+        "total": 42,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Pori",
+        "forward": 25,
+        "backward": 0,
+        "total": 25,
+        "asymmetry": 1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Pori",
+        "forward": 0,
+        "backward": 25,
+        "total": 25,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Kotka",
+        "forward": 0,
+        "backward": 16,
+        "total": 16,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Jarvenpaa",
+        "forward": 13,
+        "backward": 0,
+        "total": 13,
+        "asymmetry": 1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Pori",
+        "cityB": "Rauma",
+        "forward": 13,
+        "backward": 0,
+        "total": 13,
+        "asymmetry": 1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Pori",
+        "forward": 11,
+        "backward": 0,
+        "total": 11,
+        "asymmetry": 1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Vantaa",
+        "forward": 0,
+        "backward": 7,
+        "total": 7,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Lohja",
+        "forward": 0,
+        "backward": 6,
+        "total": 6,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Lohja"
+      },
+      {
+        "cityA": "Lohja",
+        "cityB": "Oulu",
+        "forward": 4,
+        "backward": 0,
+        "total": 4,
+        "asymmetry": 1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Lohja"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Lappeenranta",
+        "forward": 4,
+        "backward": 0,
+        "total": 4,
+        "asymmetry": 1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Vantaa",
+        "forward": 0,
+        "backward": 3,
+        "total": 3,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Porvoo",
+        "forward": 0,
+        "backward": 2,
+        "total": 2,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Porvoo"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Vaasa",
+        "forward": 2,
+        "backward": 0,
+        "total": 2,
+        "asymmetry": 1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Porvoo",
+        "cityB": "Vaasa",
+        "forward": 0,
+        "backward": 1,
+        "total": 1,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Lohja",
+        "forward": 0,
+        "backward": 1,
+        "total": 1,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Lohja"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Vantaa",
+        "forward": 0,
+        "backward": 1,
+        "total": 1,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Kotka",
+        "forward": 1,
+        "backward": 0,
+        "total": 1,
+        "asymmetry": 1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Lohja",
+        "cityB": "Tampere",
+        "forward": 0,
+        "backward": 1,
+        "total": 1,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Porvoo",
+        "cityB": "Vantaa",
+        "forward": 1,
+        "backward": 0,
+        "total": 1,
+        "asymmetry": 1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Porvoo"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Mikkeli",
+        "forward": 0,
+        "backward": 1,
+        "total": 1,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Jarvenpaa",
+        "cityB": "Lappeenranta",
+        "forward": 1,
+        "backward": 0,
+        "total": 1,
+        "asymmetry": 1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Jarvenpaa"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Vaasa",
+        "forward": 1,
+        "backward": 42,
+        "total": 43,
+        "asymmetry": -0.953488,
+        "absAsymmetry": 0.953488,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Pori",
+        "forward": 1,
+        "backward": 25,
+        "total": 26,
+        "asymmetry": -0.923077,
+        "absAsymmetry": 0.923077,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Rauma",
+        "forward": 1,
+        "backward": 20,
+        "total": 21,
+        "asymmetry": -0.904762,
+        "absAsymmetry": 0.904762,
+        "dominant": "Rauma"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Vaasa",
+        "forward": 16,
+        "backward": 1,
+        "total": 17,
+        "asymmetry": 0.882353,
+        "absAsymmetry": 0.882353,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Lahti",
+        "forward": 1,
+        "backward": 14,
+        "total": 15,
+        "asymmetry": -0.866667,
+        "absAsymmetry": 0.866667,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Vaasa",
+        "forward": 27,
+        "backward": 219,
+        "total": 246,
+        "asymmetry": -0.780488,
+        "absAsymmetry": 0.780488,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Lappeenranta",
+        "forward": 121,
+        "backward": 667,
+        "total": 788,
+        "asymmetry": -0.692893,
+        "absAsymmetry": 0.692893,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Mikkeli",
+        "forward": 1,
+        "backward": 5,
+        "total": 6,
+        "asymmetry": -0.666667,
+        "absAsymmetry": 0.666667,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Vaasa",
+        "forward": 364,
+        "backward": 1787,
+        "total": 2151,
+        "asymmetry": -0.661553,
+        "absAsymmetry": 0.661553,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Lappeenranta",
+        "forward": 221,
+        "backward": 1062,
+        "total": 1283,
+        "asymmetry": -0.655495,
+        "absAsymmetry": 0.655495,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Rauma",
+        "forward": 38,
+        "backward": 8,
+        "total": 46,
+        "asymmetry": 0.652174,
+        "absAsymmetry": 0.652174,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Lahti",
+        "forward": 18,
+        "backward": 4,
+        "total": 22,
+        "asymmetry": 0.636364,
+        "absAsymmetry": 0.636364,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Mikkeli",
+        "forward": 3,
+        "backward": 13,
+        "total": 16,
+        "asymmetry": -0.625,
+        "absAsymmetry": 0.625,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Rauma",
+        "cityB": "Turku",
+        "forward": 36,
+        "backward": 9,
+        "total": 45,
+        "asymmetry": 0.6,
+        "absAsymmetry": 0.6,
+        "dominant": "Rauma"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Turku",
+        "forward": 16,
+        "backward": 4,
+        "total": 20,
+        "asymmetry": 0.6,
+        "absAsymmetry": 0.6,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Vantaa",
+        "forward": 23,
+        "backward": 6,
+        "total": 29,
+        "asymmetry": 0.586207,
+        "absAsymmetry": 0.586207,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Rauma",
+        "cityB": "Tampere",
+        "forward": 26,
+        "backward": 7,
+        "total": 33,
+        "asymmetry": 0.575758,
+        "absAsymmetry": 0.575758,
+        "dominant": "Rauma"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Other",
+        "forward": 60,
+        "backward": 207,
+        "total": 267,
+        "asymmetry": -0.550562,
+        "absAsymmetry": 0.550562,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Lahti",
+        "forward": 10,
+        "backward": 32,
+        "total": 42,
+        "asymmetry": -0.52381,
+        "absAsymmetry": 0.52381,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Kotka",
+        "forward": 47,
+        "backward": 15,
+        "total": 62,
+        "asymmetry": 0.516129,
+        "absAsymmetry": 0.516129,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Kuopio",
+        "forward": 109,
+        "backward": 35,
+        "total": 144,
+        "asymmetry": 0.513889,
+        "absAsymmetry": 0.513889,
+        "dominant": "Hameenlinna"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Tampere",
+        "forward": 73,
+        "backward": 24,
+        "total": 97,
+        "asymmetry": 0.505155,
+        "absAsymmetry": 0.505155,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Nurmijarvi",
+        "forward": 1,
+        "backward": 3,
+        "total": 4,
+        "asymmetry": -0.5,
+        "absAsymmetry": 0.5,
+        "dominant": "Nurmijarvi"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Porvoo",
+        "forward": 20,
+        "backward": 7,
+        "total": 27,
+        "asymmetry": 0.481481,
+        "absAsymmetry": 0.481481,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Rauma",
+        "forward": 77,
+        "backward": 28,
+        "total": 105,
+        "asymmetry": 0.466667,
+        "absAsymmetry": 0.466667,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Lohja",
+        "forward": 11,
+        "backward": 4,
+        "total": 15,
+        "asymmetry": 0.466667,
+        "absAsymmetry": 0.466667,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Tampere",
+        "forward": 157,
+        "backward": 430,
+        "total": 587,
+        "asymmetry": -0.465077,
+        "absAsymmetry": 0.465077,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Lahti",
+        "forward": 32,
+        "backward": 12,
+        "total": 44,
+        "asymmetry": 0.454545,
+        "absAsymmetry": 0.454545,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Oulu",
+        "forward": 37,
+        "backward": 14,
+        "total": 51,
+        "asymmetry": 0.45098,
+        "absAsymmetry": 0.45098,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Porvoo",
+        "cityB": "Tampere",
+        "forward": 5,
+        "backward": 13,
+        "total": 18,
+        "asymmetry": -0.444444,
+        "absAsymmetry": 0.444444,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Other",
+        "forward": 7632,
+        "backward": 3031,
+        "total": 10663,
+        "asymmetry": 0.431492,
+        "absAsymmetry": 0.431492,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Pori",
+        "cityB": "Vaasa",
+        "forward": 5,
+        "backward": 2,
+        "total": 7,
+        "asymmetry": 0.428571,
+        "absAsymmetry": 0.428571,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Mikkeli",
+        "forward": 23,
+        "backward": 56,
+        "total": 79,
+        "asymmetry": -0.417722,
+        "absAsymmetry": 0.417722,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Other",
+        "forward": 375,
+        "backward": 161,
+        "total": 536,
+        "asymmetry": 0.399254,
+        "absAsymmetry": 0.399254,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Jyvaskyla",
+        "forward": 16,
+        "backward": 7,
+        "total": 23,
+        "asymmetry": 0.391304,
+        "absAsymmetry": 0.391304,
+        "dominant": "Hameenlinna"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Oulu",
+        "forward": 495,
+        "backward": 1102,
+        "total": 1597,
+        "asymmetry": -0.380088,
+        "absAsymmetry": 0.380088,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Vaasa",
+        "forward": 1235,
+        "backward": 560,
+        "total": 1795,
+        "asymmetry": 0.376045,
+        "absAsymmetry": 0.376045,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Turku",
+        "forward": 47,
+        "backward": 23,
+        "total": 70,
+        "asymmetry": 0.342857,
+        "absAsymmetry": 0.342857,
+        "dominant": "Hameenlinna"
+      },
+      {
+        "cityA": "Vaasa",
+        "cityB": "Vantaa",
+        "forward": 40,
+        "backward": 20,
+        "total": 60,
+        "asymmetry": 0.333333,
+        "absAsymmetry": 0.333333,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Rauma",
+        "forward": 9,
+        "backward": 18,
+        "total": 27,
+        "asymmetry": -0.333333,
+        "absAsymmetry": 0.333333,
+        "dominant": "Rauma"
+      },
+      {
+        "cityA": "Lohja",
+        "cityB": "Turku",
+        "forward": 7,
+        "backward": 14,
+        "total": 21,
+        "asymmetry": -0.333333,
+        "absAsymmetry": 0.333333,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Lohja",
+        "cityB": "Other",
+        "forward": 3,
+        "backward": 6,
+        "total": 9,
+        "asymmetry": -0.333333,
+        "absAsymmetry": 0.333333,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Porvoo",
+        "forward": 6,
+        "backward": 3,
+        "total": 9,
+        "asymmetry": 0.333333,
+        "absAsymmetry": 0.333333,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Lappeenranta",
+        "forward": 137,
+        "backward": 262,
+        "total": 399,
+        "asymmetry": -0.313283,
+        "absAsymmetry": 0.313283,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Lappeenranta",
+        "forward": 21,
+        "backward": 11,
+        "total": 32,
+        "asymmetry": 0.3125,
+        "absAsymmetry": 0.3125,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Vaasa",
+        "forward": 17,
+        "backward": 9,
+        "total": 26,
+        "asymmetry": 0.307692,
+        "absAsymmetry": 0.307692,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Tampere",
+        "cityB": "Vantaa",
+        "forward": 61,
+        "backward": 34,
+        "total": 95,
+        "asymmetry": 0.284211,
+        "absAsymmetry": 0.284211,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Pori",
+        "forward": 17,
+        "backward": 10,
+        "total": 27,
+        "asymmetry": 0.259259,
+        "absAsymmetry": 0.259259,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Vantaa",
+        "forward": 380,
+        "backward": 230,
+        "total": 610,
+        "asymmetry": 0.245902,
+        "absAsymmetry": 0.245902,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Turku",
+        "forward": 20,
+        "backward": 33,
+        "total": 53,
+        "asymmetry": -0.245283,
+        "absAsymmetry": 0.245283,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Vaasa",
+        "forward": 33,
+        "backward": 20,
+        "total": 53,
+        "asymmetry": 0.245283,
+        "absAsymmetry": 0.245283,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Other",
+        "forward": 1055,
+        "backward": 1725,
+        "total": 2780,
+        "asymmetry": -0.241007,
+        "absAsymmetry": 0.241007,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Porvoo",
+        "forward": 65,
+        "backward": 40,
+        "total": 105,
+        "asymmetry": 0.238095,
+        "absAsymmetry": 0.238095,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Pori",
+        "forward": 26,
+        "backward": 16,
+        "total": 42,
+        "asymmetry": 0.238095,
+        "absAsymmetry": 0.238095,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Other",
+        "forward": 139,
+        "backward": 86,
+        "total": 225,
+        "asymmetry": 0.235556,
+        "absAsymmetry": 0.235556,
+        "dominant": "Hameenlinna"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Rauma",
+        "forward": 29,
+        "backward": 18,
+        "total": 47,
+        "asymmetry": 0.234043,
+        "absAsymmetry": 0.234043,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Vantaa",
+        "forward": 122,
+        "backward": 76,
+        "total": 198,
+        "asymmetry": 0.232323,
+        "absAsymmetry": 0.232323,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Oulu",
+        "forward": 40,
+        "backward": 64,
+        "total": 104,
+        "asymmetry": -0.230769,
+        "absAsymmetry": 0.230769,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Pori",
+        "cityB": "Vantaa",
+        "forward": 8,
+        "backward": 5,
+        "total": 13,
+        "asymmetry": 0.230769,
+        "absAsymmetry": 0.230769,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Lappeenranta",
+        "forward": 57,
+        "backward": 36,
+        "total": 93,
+        "asymmetry": 0.225806,
+        "absAsymmetry": 0.225806,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Vaasa",
+        "forward": 38,
+        "backward": 60,
+        "total": 98,
+        "asymmetry": -0.22449,
+        "absAsymmetry": 0.22449,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Turku",
+        "cityB": "Vaasa",
+        "forward": 204,
+        "backward": 321,
+        "total": 525,
+        "asymmetry": -0.222857,
+        "absAsymmetry": 0.222857,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Porvoo",
+        "forward": 9,
+        "backward": 14,
+        "total": 23,
+        "asymmetry": -0.217391,
+        "absAsymmetry": 0.217391,
+        "dominant": "Porvoo"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Helsinki",
+        "forward": 8242,
+        "backward": 12728,
+        "total": 20970,
+        "asymmetry": -0.213925,
+        "absAsymmetry": 0.213925,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Tampere",
+        "forward": 146,
+        "backward": 223,
+        "total": 369,
+        "asymmetry": -0.208672,
+        "absAsymmetry": 0.208672,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Turku",
+        "forward": 2211,
+        "backward": 1456,
+        "total": 3667,
+        "asymmetry": 0.20589,
+        "absAsymmetry": 0.20589,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Tampere",
+        "forward": 5826,
+        "backward": 3865,
+        "total": 9691,
+        "asymmetry": 0.202353,
+        "absAsymmetry": 0.202353,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Lohja",
+        "forward": 12,
+        "backward": 8,
+        "total": 20,
+        "asymmetry": 0.2,
+        "absAsymmetry": 0.2,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Mikkeli",
+        "forward": 139,
+        "backward": 208,
+        "total": 347,
+        "asymmetry": -0.198847,
+        "absAsymmetry": 0.198847,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Tampere",
+        "forward": 465,
+        "backward": 688,
+        "total": 1153,
+        "asymmetry": -0.193408,
+        "absAsymmetry": 0.193408,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Vaasa",
+        "forward": 5040,
+        "backward": 3495,
+        "total": 8535,
+        "asymmetry": 0.181019,
+        "absAsymmetry": 0.181019,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Kuopio",
+        "forward": 1590,
+        "backward": 1104,
+        "total": 2694,
+        "asymmetry": 0.180401,
+        "absAsymmetry": 0.180401,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Joensuu",
+        "forward": 149,
+        "backward": 214,
+        "total": 363,
+        "asymmetry": -0.179063,
+        "absAsymmetry": 0.179063,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Turku",
+        "forward": 369,
+        "backward": 258,
+        "total": 627,
+        "asymmetry": 0.177033,
+        "absAsymmetry": 0.177033,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Turku",
+        "cityB": "Vantaa",
+        "forward": 138,
+        "backward": 197,
+        "total": 335,
+        "asymmetry": -0.176119,
+        "absAsymmetry": 0.176119,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Tampere",
+        "cityB": "Vaasa",
+        "forward": 398,
+        "backward": 566,
+        "total": 964,
+        "asymmetry": -0.174274,
+        "absAsymmetry": 0.174274,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Kuopio",
+        "forward": 704,
+        "backward": 992,
+        "total": 1696,
+        "asymmetry": -0.169811,
+        "absAsymmetry": 0.169811,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Hameenlinna",
+        "forward": 5,
+        "backward": 7,
+        "total": 12,
+        "asymmetry": -0.166667,
+        "absAsymmetry": 0.166667,
+        "dominant": "Hameenlinna"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Jarvenpaa",
+        "forward": 11,
+        "backward": 8,
+        "total": 19,
+        "asymmetry": 0.157895,
+        "absAsymmetry": 0.157895,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Mikkeli",
+        "forward": 8,
+        "backward": 11,
+        "total": 19,
+        "asymmetry": -0.157895,
+        "absAsymmetry": 0.157895,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Oulu",
+        "forward": 25,
+        "backward": 34,
+        "total": 59,
+        "asymmetry": -0.152542,
+        "absAsymmetry": 0.152542,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Porvoo",
+        "forward": 106,
+        "backward": 78,
+        "total": 184,
+        "asymmetry": 0.152174,
+        "absAsymmetry": 0.152174,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Turku",
+        "forward": 377,
+        "backward": 279,
+        "total": 656,
+        "asymmetry": 0.14939,
+        "absAsymmetry": 0.14939,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Pori",
+        "cityB": "Tampere",
+        "forward": 203,
+        "backward": 151,
+        "total": 354,
+        "asymmetry": 0.146893,
+        "absAsymmetry": 0.146893,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Pori",
+        "forward": 225,
+        "backward": 168,
+        "total": 393,
+        "asymmetry": 0.145038,
+        "absAsymmetry": 0.145038,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Mikkeli",
+        "forward": 28,
+        "backward": 37,
+        "total": 65,
+        "asymmetry": -0.138462,
+        "absAsymmetry": 0.138462,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Porvoo",
+        "forward": 43,
+        "backward": 33,
+        "total": 76,
+        "asymmetry": 0.131579,
+        "absAsymmetry": 0.131579,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Other",
+        "forward": 2119,
+        "backward": 2755,
+        "total": 4874,
+        "asymmetry": -0.130488,
+        "absAsymmetry": 0.130488,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Vantaa",
+        "forward": 59,
+        "backward": 76,
+        "total": 135,
+        "asymmetry": -0.125926,
+        "absAsymmetry": 0.125926,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Oulu",
+        "forward": 236,
+        "backward": 184,
+        "total": 420,
+        "asymmetry": 0.12381,
+        "absAsymmetry": 0.12381,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Vantaa",
+        "forward": 468,
+        "backward": 593,
+        "total": 1061,
+        "asymmetry": -0.117813,
+        "absAsymmetry": 0.117813,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Tampere",
+        "cityB": "Turku",
+        "forward": 9246,
+        "backward": 7333,
+        "total": 16579,
+        "asymmetry": 0.115387,
+        "absAsymmetry": 0.115387,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Pori",
+        "forward": 88,
+        "backward": 70,
+        "total": 158,
+        "asymmetry": 0.113924,
+        "absAsymmetry": 0.113924,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Tampere",
+        "forward": 1856,
+        "backward": 1495,
+        "total": 3351,
+        "asymmetry": 0.107729,
+        "absAsymmetry": 0.107729,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Lahti",
+        "forward": 671,
+        "backward": 832,
+        "total": 1503,
+        "asymmetry": -0.107119,
+        "absAsymmetry": 0.107119,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Mikkeli",
+        "forward": 209,
+        "backward": 169,
+        "total": 378,
+        "asymmetry": 0.10582,
+        "absAsymmetry": 0.10582,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Tampere",
+        "forward": 2227,
+        "backward": 2753,
+        "total": 4980,
+        "asymmetry": -0.105622,
+        "absAsymmetry": 0.105622,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Vantaa",
+        "forward": 1528,
+        "backward": 1238,
+        "total": 2766,
+        "asymmetry": 0.104845,
+        "absAsymmetry": 0.104845,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Kotka",
+        "forward": 149,
+        "backward": 121,
+        "total": 270,
+        "asymmetry": 0.103704,
+        "absAsymmetry": 0.103704,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Kuopio",
+        "forward": 756,
+        "backward": 924,
+        "total": 1680,
+        "asymmetry": -0.1,
+        "absAsymmetry": 0.1,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Mikkeli",
+        "forward": 388,
+        "backward": 323,
+        "total": 711,
+        "asymmetry": 0.091421,
+        "absAsymmetry": 0.091421,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Jyvaskyla",
+        "forward": 267,
+        "backward": 319,
+        "total": 586,
+        "asymmetry": -0.088737,
+        "absAsymmetry": 0.088737,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Oulu",
+        "forward": 4493,
+        "backward": 3818,
+        "total": 8311,
+        "asymmetry": 0.081218,
+        "absAsymmetry": 0.081218,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Kuopio",
+        "forward": 102,
+        "backward": 120,
+        "total": 222,
+        "asymmetry": -0.081081,
+        "absAsymmetry": 0.081081,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Pori",
+        "forward": 51,
+        "backward": 60,
+        "total": 111,
+        "asymmetry": -0.081081,
+        "absAsymmetry": 0.081081,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Vantaa",
+        "forward": 87,
+        "backward": 102,
+        "total": 189,
+        "asymmetry": -0.079365,
+        "absAsymmetry": 0.079365,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Lahti",
+        "forward": 123,
+        "backward": 143,
+        "total": 266,
+        "asymmetry": -0.075188,
+        "absAsymmetry": 0.075188,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Lahti",
+        "forward": 68,
+        "backward": 59,
+        "total": 127,
+        "asymmetry": 0.070866,
+        "absAsymmetry": 0.070866,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Porvoo",
+        "cityB": "Turku",
+        "forward": 94,
+        "backward": 108,
+        "total": 202,
+        "asymmetry": -0.069307,
+        "absAsymmetry": 0.069307,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Tampere",
+        "forward": 40,
+        "backward": 35,
+        "total": 75,
+        "asymmetry": 0.066667,
+        "absAsymmetry": 0.066667,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Tampere",
+        "forward": 814,
+        "backward": 929,
+        "total": 1743,
+        "asymmetry": -0.065978,
+        "absAsymmetry": 0.065978,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Tampere",
+        "forward": 300,
+        "backward": 341,
+        "total": 641,
+        "asymmetry": -0.063963,
+        "absAsymmetry": 0.063963,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Kotka",
+        "forward": 23,
+        "backward": 26,
+        "total": 49,
+        "asymmetry": -0.061224,
+        "absAsymmetry": 0.061224,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Other",
+        "forward": 910,
+        "backward": 811,
+        "total": 1721,
+        "asymmetry": 0.057525,
+        "absAsymmetry": 0.057525,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Tampere",
+        "forward": 18384,
+        "backward": 16394,
+        "total": 34778,
+        "asymmetry": 0.05722,
+        "absAsymmetry": 0.05722,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Other",
+        "forward": 17932,
+        "backward": 20052,
+        "total": 37984,
+        "asymmetry": -0.055813,
+        "absAsymmetry": 0.055813,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Turku",
+        "forward": 3251,
+        "backward": 3616,
+        "total": 6867,
+        "asymmetry": -0.053153,
+        "absAsymmetry": 0.053153,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Vaasa",
+        "forward": 122,
+        "backward": 134,
+        "total": 256,
+        "asymmetry": -0.046875,
+        "absAsymmetry": 0.046875,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Jyvaskyla",
+        "forward": 493,
+        "backward": 449,
+        "total": 942,
+        "asymmetry": 0.046709,
+        "absAsymmetry": 0.046709,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Tampere",
+        "forward": 3448,
+        "backward": 3144,
+        "total": 6592,
+        "asymmetry": 0.046117,
+        "absAsymmetry": 0.046117,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Oulu",
+        "forward": 1524,
+        "backward": 1661,
+        "total": 3185,
+        "asymmetry": -0.043014,
+        "absAsymmetry": 0.043014,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Turku",
+        "forward": 6633,
+        "backward": 7228,
+        "total": 13861,
+        "asymmetry": -0.042926,
+        "absAsymmetry": 0.042926,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Other",
+        "forward": 105,
+        "backward": 114,
+        "total": 219,
+        "asymmetry": -0.041096,
+        "absAsymmetry": 0.041096,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Other",
+        "forward": 38,
+        "backward": 41,
+        "total": 79,
+        "asymmetry": -0.037975,
+        "absAsymmetry": 0.037975,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Turku",
+        "forward": 1419,
+        "backward": 1531,
+        "total": 2950,
+        "asymmetry": -0.037966,
+        "absAsymmetry": 0.037966,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Pori",
+        "forward": 55,
+        "backward": 51,
+        "total": 106,
+        "asymmetry": 0.037736,
+        "absAsymmetry": 0.037736,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Joensuu",
+        "forward": 1539,
+        "backward": 1438,
+        "total": 2977,
+        "asymmetry": 0.033927,
+        "absAsymmetry": 0.033927,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Pori",
+        "cityB": "Turku",
+        "forward": 439,
+        "backward": 468,
+        "total": 907,
+        "asymmetry": -0.031974,
+        "absAsymmetry": 0.031974,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Turku",
+        "forward": 139,
+        "backward": 147,
+        "total": 286,
+        "asymmetry": -0.027972,
+        "absAsymmetry": 0.027972,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Vantaa",
+        "forward": 82,
+        "backward": 78,
+        "total": 160,
+        "asymmetry": 0.025,
+        "absAsymmetry": 0.025,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Oulu",
+        "forward": 23529,
+        "backward": 22448,
+        "total": 45977,
+        "asymmetry": 0.023512,
+        "absAsymmetry": 0.023512,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Turku",
+        "forward": 7023,
+        "backward": 6709,
+        "total": 13732,
+        "asymmetry": 0.022866,
+        "absAsymmetry": 0.022866,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Porvoo",
+        "forward": 46,
+        "backward": 48,
+        "total": 94,
+        "asymmetry": -0.021277,
+        "absAsymmetry": 0.021277,
+        "dominant": "Porvoo"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Oulu",
+        "forward": 8720,
+        "backward": 8374,
+        "total": 17094,
+        "asymmetry": 0.020241,
+        "absAsymmetry": 0.020241,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Jarvenpaa",
+        "cityB": "Other",
+        "forward": 27,
+        "backward": 26,
+        "total": 53,
+        "asymmetry": 0.018868,
+        "absAsymmetry": 0.018868,
+        "dominant": "Jarvenpaa"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Turku",
+        "forward": 19235,
+        "backward": 19954,
+        "total": 39189,
+        "asymmetry": -0.018347,
+        "absAsymmetry": 0.018347,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Kuopio",
+        "forward": 15293,
+        "backward": 15835,
+        "total": 31128,
+        "asymmetry": -0.017412,
+        "absAsymmetry": 0.017412,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Oulu",
+        "forward": 657,
+        "backward": 638,
+        "total": 1295,
+        "asymmetry": 0.014672,
+        "absAsymmetry": 0.014672,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Lappeenranta",
+        "forward": 493259,
+        "backward": 488025,
+        "total": 981284,
+        "asymmetry": 0.005334,
+        "absAsymmetry": 0.005334,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Helsinki",
+        "forward": 147,
+        "backward": 146,
+        "total": 293,
+        "asymmetry": 0.003413,
+        "absAsymmetry": 0.003413,
+        "dominant": "Hameenlinna"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Jyvaskyla",
+        "forward": 37978,
+        "backward": 37852,
+        "total": 75830,
+        "asymmetry": 0.001662,
+        "absAsymmetry": 0.001662,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Oulu",
+        "forward": 452,
+        "backward": 453,
+        "total": 905,
+        "asymmetry": -0.001105,
+        "absAsymmetry": 0.001105,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Pori",
+        "forward": 165,
+        "backward": 165,
+        "total": 330,
+        "asymmetry": 0.0,
+        "absAsymmetry": 0.0,
+        "dominant": "Balanced"
+      },
+      {
+        "cityA": "Lohja",
+        "cityB": "Vantaa",
+        "forward": 6,
+        "backward": 6,
+        "total": 12,
+        "asymmetry": 0.0,
+        "absAsymmetry": 0.0,
+        "dominant": "Balanced"
+      }
+    ],
+    "2014-2018": [
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Pori",
+        "forward": 0,
+        "backward": 33,
+        "total": 33,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Porvoo",
+        "forward": 33,
+        "backward": 0,
+        "total": 33,
+        "asymmetry": 1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Rauma",
+        "forward": 22,
+        "backward": 0,
+        "total": 22,
+        "asymmetry": 1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Porvoo",
+        "forward": 0,
+        "backward": 17,
+        "total": 17,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Porvoo"
+      },
+      {
+        "cityA": "Lohja",
+        "cityB": "Pori",
+        "forward": 0,
+        "backward": 12,
+        "total": 12,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Vaasa",
+        "cityB": "Vantaa",
+        "forward": 0,
+        "backward": 12,
+        "total": 12,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Nurmijarvi",
+        "cityB": "Vantaa",
+        "forward": 0,
+        "backward": 10,
+        "total": 10,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Nurmijarvi",
+        "forward": 0,
+        "backward": 10,
+        "total": 10,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Nurmijarvi"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Vantaa",
+        "forward": 0,
+        "backward": 7,
+        "total": 7,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Pori",
+        "cityB": "Vantaa",
+        "forward": 0,
+        "backward": 7,
+        "total": 7,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Pori",
+        "cityB": "Porvoo",
+        "forward": 7,
+        "backward": 0,
+        "total": 7,
+        "asymmetry": 1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Lohja",
+        "forward": 0,
+        "backward": 2,
+        "total": 2,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Lohja"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Nurmijarvi",
+        "forward": 0,
+        "backward": 1,
+        "total": 1,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Nurmijarvi"
+      },
+      {
+        "cityA": "Rauma",
+        "cityB": "Vantaa",
+        "forward": 0,
+        "backward": 1,
+        "total": 1,
+        "asymmetry": -1.0,
+        "absAsymmetry": 1.0,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Rauma",
+        "cityB": "Turku",
+        "forward": 25,
+        "backward": 1,
+        "total": 26,
+        "asymmetry": 0.923077,
+        "absAsymmetry": 0.923077,
+        "dominant": "Rauma"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Pori",
+        "forward": 1,
+        "backward": 18,
+        "total": 19,
+        "asymmetry": -0.894737,
+        "absAsymmetry": 0.894737,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Kotka",
+        "forward": 18,
+        "backward": 1,
+        "total": 19,
+        "asymmetry": 0.894737,
+        "absAsymmetry": 0.894737,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Vaasa",
+        "forward": 1,
+        "backward": 16,
+        "total": 17,
+        "asymmetry": -0.882353,
+        "absAsymmetry": 0.882353,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Jyvaskyla",
+        "forward": 2,
+        "backward": 31,
+        "total": 33,
+        "asymmetry": -0.878788,
+        "absAsymmetry": 0.878788,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Joensuu",
+        "forward": 2,
+        "backward": 29,
+        "total": 31,
+        "asymmetry": -0.870968,
+        "absAsymmetry": 0.870968,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Vaasa",
+        "forward": 43,
+        "backward": 3,
+        "total": 46,
+        "asymmetry": 0.869565,
+        "absAsymmetry": 0.869565,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Vantaa",
+        "forward": 14,
+        "backward": 1,
+        "total": 15,
+        "asymmetry": 0.866667,
+        "absAsymmetry": 0.866667,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Tampere",
+        "forward": 10,
+        "backward": 98,
+        "total": 108,
+        "asymmetry": -0.814815,
+        "absAsymmetry": 0.814815,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Pori",
+        "forward": 32,
+        "backward": 4,
+        "total": 36,
+        "asymmetry": 0.777778,
+        "absAsymmetry": 0.777778,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Jarvenpaa",
+        "cityB": "Other",
+        "forward": 2,
+        "backward": 16,
+        "total": 18,
+        "asymmetry": -0.777778,
+        "absAsymmetry": 0.777778,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Vaasa",
+        "forward": 201,
+        "backward": 1335,
+        "total": 1536,
+        "asymmetry": -0.738281,
+        "absAsymmetry": 0.738281,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Rauma",
+        "forward": 12,
+        "backward": 2,
+        "total": 14,
+        "asymmetry": 0.714286,
+        "absAsymmetry": 0.714286,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Lahti",
+        "forward": 8,
+        "backward": 38,
+        "total": 46,
+        "asymmetry": -0.652174,
+        "absAsymmetry": 0.652174,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Mikkeli",
+        "forward": 57,
+        "backward": 258,
+        "total": 315,
+        "asymmetry": -0.638095,
+        "absAsymmetry": 0.638095,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Vaasa",
+        "forward": 10,
+        "backward": 41,
+        "total": 51,
+        "asymmetry": -0.607843,
+        "absAsymmetry": 0.607843,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Lahti",
+        "forward": 43,
+        "backward": 11,
+        "total": 54,
+        "asymmetry": 0.592593,
+        "absAsymmetry": 0.592593,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Turku",
+        "forward": 2448,
+        "backward": 628,
+        "total": 3076,
+        "asymmetry": 0.591678,
+        "absAsymmetry": 0.591678,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Tampere",
+        "forward": 41,
+        "backward": 11,
+        "total": 52,
+        "asymmetry": 0.576923,
+        "absAsymmetry": 0.576923,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Vantaa",
+        "forward": 55,
+        "backward": 15,
+        "total": 70,
+        "asymmetry": 0.571429,
+        "absAsymmetry": 0.571429,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Vaasa",
+        "forward": 149,
+        "backward": 533,
+        "total": 682,
+        "asymmetry": -0.56305,
+        "absAsymmetry": 0.56305,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Lohja",
+        "forward": 7,
+        "backward": 2,
+        "total": 9,
+        "asymmetry": 0.555556,
+        "absAsymmetry": 0.555556,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Vantaa",
+        "forward": 61,
+        "backward": 18,
+        "total": 79,
+        "asymmetry": 0.544304,
+        "absAsymmetry": 0.544304,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Vaasa",
+        "forward": 39,
+        "backward": 124,
+        "total": 163,
+        "asymmetry": -0.521472,
+        "absAsymmetry": 0.521472,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Oulu",
+        "forward": 584,
+        "backward": 185,
+        "total": 769,
+        "asymmetry": 0.518856,
+        "absAsymmetry": 0.518856,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Other",
+        "forward": 21,
+        "backward": 63,
+        "total": 84,
+        "asymmetry": -0.5,
+        "absAsymmetry": 0.5,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Kotka",
+        "forward": 7,
+        "backward": 21,
+        "total": 28,
+        "asymmetry": -0.5,
+        "absAsymmetry": 0.5,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Tampere",
+        "forward": 1413,
+        "backward": 478,
+        "total": 1891,
+        "asymmetry": 0.494447,
+        "absAsymmetry": 0.494447,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Pori",
+        "forward": 168,
+        "backward": 483,
+        "total": 651,
+        "asymmetry": -0.483871,
+        "absAsymmetry": 0.483871,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Rauma",
+        "forward": 8,
+        "backward": 23,
+        "total": 31,
+        "asymmetry": -0.483871,
+        "absAsymmetry": 0.483871,
+        "dominant": "Rauma"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Pori",
+        "forward": 62,
+        "backward": 22,
+        "total": 84,
+        "asymmetry": 0.47619,
+        "absAsymmetry": 0.47619,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Lahti",
+        "forward": 39,
+        "backward": 106,
+        "total": 145,
+        "asymmetry": -0.462069,
+        "absAsymmetry": 0.462069,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Other",
+        "forward": 13532,
+        "backward": 5027,
+        "total": 18559,
+        "asymmetry": 0.458268,
+        "absAsymmetry": 0.458268,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Kuopio",
+        "forward": 161,
+        "backward": 60,
+        "total": 221,
+        "asymmetry": 0.457014,
+        "absAsymmetry": 0.457014,
+        "dominant": "Hameenlinna"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Oulu",
+        "forward": 18,
+        "backward": 48,
+        "total": 66,
+        "asymmetry": -0.454545,
+        "absAsymmetry": 0.454545,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Pori",
+        "forward": 64,
+        "backward": 25,
+        "total": 89,
+        "asymmetry": 0.438202,
+        "absAsymmetry": 0.438202,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Vaasa",
+        "forward": 40,
+        "backward": 102,
+        "total": 142,
+        "asymmetry": -0.43662,
+        "absAsymmetry": 0.43662,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Oulu",
+        "forward": 7,
+        "backward": 3,
+        "total": 10,
+        "asymmetry": 0.4,
+        "absAsymmetry": 0.4,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Kotka",
+        "forward": 13,
+        "backward": 29,
+        "total": 42,
+        "asymmetry": -0.380952,
+        "absAsymmetry": 0.380952,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Rauma",
+        "cityB": "Tampere",
+        "forward": 24,
+        "backward": 11,
+        "total": 35,
+        "asymmetry": 0.371429,
+        "absAsymmetry": 0.371429,
+        "dominant": "Rauma"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Porvoo",
+        "forward": 30,
+        "backward": 14,
+        "total": 44,
+        "asymmetry": 0.363636,
+        "absAsymmetry": 0.363636,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Pori",
+        "forward": 68,
+        "backward": 32,
+        "total": 100,
+        "asymmetry": 0.36,
+        "absAsymmetry": 0.36,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Mikkeli",
+        "forward": 11,
+        "backward": 23,
+        "total": 34,
+        "asymmetry": -0.352941,
+        "absAsymmetry": 0.352941,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Kuopio",
+        "forward": 35,
+        "backward": 73,
+        "total": 108,
+        "asymmetry": -0.351852,
+        "absAsymmetry": 0.351852,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Helsinki",
+        "forward": 9739,
+        "backward": 19962,
+        "total": 29701,
+        "asymmetry": -0.344197,
+        "absAsymmetry": 0.344197,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Mikkeli",
+        "forward": 399,
+        "backward": 195,
+        "total": 594,
+        "asymmetry": 0.343434,
+        "absAsymmetry": 0.343434,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Jyvaskyla",
+        "forward": 1387,
+        "backward": 684,
+        "total": 2071,
+        "asymmetry": 0.33945,
+        "absAsymmetry": 0.33945,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Pori",
+        "forward": 16,
+        "backward": 32,
+        "total": 48,
+        "asymmetry": -0.333333,
+        "absAsymmetry": 0.333333,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Hameenlinna",
+        "forward": 4,
+        "backward": 8,
+        "total": 12,
+        "asymmetry": -0.333333,
+        "absAsymmetry": 0.333333,
+        "dominant": "Hameenlinna"
+      },
+      {
+        "cityA": "Nurmijarvi",
+        "cityB": "Tampere",
+        "forward": 3,
+        "backward": 6,
+        "total": 9,
+        "asymmetry": -0.333333,
+        "absAsymmetry": 0.333333,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Lohja",
+        "forward": 2,
+        "backward": 1,
+        "total": 3,
+        "asymmetry": 0.333333,
+        "absAsymmetry": 0.333333,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Porvoo",
+        "forward": 48,
+        "backward": 25,
+        "total": 73,
+        "asymmetry": 0.315068,
+        "absAsymmetry": 0.315068,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Kuopio",
+        "forward": 2652,
+        "backward": 5044,
+        "total": 7696,
+        "asymmetry": -0.310811,
+        "absAsymmetry": 0.310811,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Porvoo",
+        "forward": 19,
+        "backward": 10,
+        "total": 29,
+        "asymmetry": 0.310345,
+        "absAsymmetry": 0.310345,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Tampere",
+        "forward": 1465,
+        "backward": 2688,
+        "total": 4153,
+        "asymmetry": -0.294486,
+        "absAsymmetry": 0.294486,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Lohja",
+        "cityB": "Turku",
+        "forward": 74,
+        "backward": 132,
+        "total": 206,
+        "asymmetry": -0.281553,
+        "absAsymmetry": 0.281553,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Turku",
+        "forward": 683,
+        "backward": 1216,
+        "total": 1899,
+        "asymmetry": -0.280674,
+        "absAsymmetry": 0.280674,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Lohja",
+        "cityB": "Other",
+        "forward": 14,
+        "backward": 8,
+        "total": 22,
+        "asymmetry": 0.272727,
+        "absAsymmetry": 0.272727,
+        "dominant": "Lohja"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Vantaa",
+        "forward": 4,
+        "backward": 7,
+        "total": 11,
+        "asymmetry": -0.272727,
+        "absAsymmetry": 0.272727,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Pori",
+        "cityB": "Turku",
+        "forward": 602,
+        "backward": 1025,
+        "total": 1627,
+        "asymmetry": -0.259988,
+        "absAsymmetry": 0.259988,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Turku",
+        "forward": 51,
+        "backward": 30,
+        "total": 81,
+        "asymmetry": 0.259259,
+        "absAsymmetry": 0.259259,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Vantaa",
+        "forward": 138,
+        "backward": 82,
+        "total": 220,
+        "asymmetry": 0.254545,
+        "absAsymmetry": 0.254545,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Lahti",
+        "forward": 36,
+        "backward": 22,
+        "total": 58,
+        "asymmetry": 0.241379,
+        "absAsymmetry": 0.241379,
+        "dominant": "Hameenlinna"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Lappeenranta",
+        "forward": 21,
+        "backward": 34,
+        "total": 55,
+        "asymmetry": -0.236364,
+        "absAsymmetry": 0.236364,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Vaasa",
+        "forward": 6165,
+        "backward": 3819,
+        "total": 9984,
+        "asymmetry": 0.234976,
+        "absAsymmetry": 0.234976,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Lohja",
+        "cityB": "Oulu",
+        "forward": 8,
+        "backward": 5,
+        "total": 13,
+        "asymmetry": 0.230769,
+        "absAsymmetry": 0.230769,
+        "dominant": "Lohja"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Lahti",
+        "forward": 23,
+        "backward": 36,
+        "total": 59,
+        "asymmetry": -0.220339,
+        "absAsymmetry": 0.220339,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Pori",
+        "cityB": "Tampere",
+        "forward": 336,
+        "backward": 218,
+        "total": 554,
+        "asymmetry": 0.212996,
+        "absAsymmetry": 0.212996,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Lappeenranta",
+        "forward": 200,
+        "backward": 308,
+        "total": 508,
+        "asymmetry": -0.212598,
+        "absAsymmetry": 0.212598,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Tampere",
+        "forward": 4245,
+        "backward": 2791,
+        "total": 7036,
+        "asymmetry": 0.206652,
+        "absAsymmetry": 0.206652,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Vantaa",
+        "forward": 155,
+        "backward": 102,
+        "total": 257,
+        "asymmetry": 0.206226,
+        "absAsymmetry": 0.206226,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Other",
+        "forward": 2023,
+        "backward": 3072,
+        "total": 5095,
+        "asymmetry": -0.205888,
+        "absAsymmetry": 0.205888,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Lohja",
+        "forward": 43,
+        "backward": 65,
+        "total": 108,
+        "asymmetry": -0.203704,
+        "absAsymmetry": 0.203704,
+        "dominant": "Lohja"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Mikkeli",
+        "forward": 15,
+        "backward": 10,
+        "total": 25,
+        "asymmetry": 0.2,
+        "absAsymmetry": 0.2,
+        "dominant": "Kotka"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Pori",
+        "forward": 3,
+        "backward": 2,
+        "total": 5,
+        "asymmetry": 0.2,
+        "absAsymmetry": 0.2,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Turku",
+        "forward": 73,
+        "backward": 49,
+        "total": 122,
+        "asymmetry": 0.196721,
+        "absAsymmetry": 0.196721,
+        "dominant": "Hameenlinna"
+      },
+      {
+        "cityA": "Pori",
+        "cityB": "Vaasa",
+        "forward": 34,
+        "backward": 49,
+        "total": 83,
+        "asymmetry": -0.180723,
+        "absAsymmetry": 0.180723,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Rauma",
+        "forward": 23,
+        "backward": 16,
+        "total": 39,
+        "asymmetry": 0.179487,
+        "absAsymmetry": 0.179487,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Oulu",
+        "forward": 2638,
+        "backward": 3738,
+        "total": 6376,
+        "asymmetry": -0.172522,
+        "absAsymmetry": 0.172522,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Lappeenranta",
+        "forward": 587,
+        "backward": 419,
+        "total": 1006,
+        "asymmetry": 0.166998,
+        "absAsymmetry": 0.166998,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Porvoo",
+        "forward": 7,
+        "backward": 5,
+        "total": 12,
+        "asymmetry": 0.166667,
+        "absAsymmetry": 0.166667,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Jarvenpaa",
+        "cityB": "Jyvaskyla",
+        "forward": 7,
+        "backward": 5,
+        "total": 12,
+        "asymmetry": 0.166667,
+        "absAsymmetry": 0.166667,
+        "dominant": "Jarvenpaa"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Tampere",
+        "forward": 7701,
+        "backward": 5535,
+        "total": 13236,
+        "asymmetry": 0.163645,
+        "absAsymmetry": 0.163645,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Turku",
+        "forward": 2319,
+        "backward": 1667,
+        "total": 3986,
+        "asymmetry": 0.163573,
+        "absAsymmetry": 0.163573,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Tampere",
+        "forward": 3965,
+        "backward": 2851,
+        "total": 6816,
+        "asymmetry": 0.163439,
+        "absAsymmetry": 0.163439,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Kotka",
+        "forward": 219,
+        "backward": 158,
+        "total": 377,
+        "asymmetry": 0.161804,
+        "absAsymmetry": 0.161804,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Tampere",
+        "forward": 8070,
+        "backward": 5861,
+        "total": 13931,
+        "asymmetry": 0.158567,
+        "absAsymmetry": 0.158567,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Other",
+        "forward": 1388,
+        "backward": 1016,
+        "total": 2404,
+        "asymmetry": 0.154742,
+        "absAsymmetry": 0.154742,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Porvoo",
+        "cityB": "Tampere",
+        "forward": 14,
+        "backward": 19,
+        "total": 33,
+        "asymmetry": -0.151515,
+        "absAsymmetry": 0.151515,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Oulu",
+        "forward": 3112,
+        "backward": 4206,
+        "total": 7318,
+        "asymmetry": -0.149494,
+        "absAsymmetry": 0.149494,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Rauma",
+        "forward": 24,
+        "backward": 18,
+        "total": 42,
+        "asymmetry": 0.142857,
+        "absAsymmetry": 0.142857,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Jarvenpaa",
+        "forward": 35,
+        "backward": 46,
+        "total": 81,
+        "asymmetry": -0.135802,
+        "absAsymmetry": 0.135802,
+        "dominant": "Jarvenpaa"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Oulu",
+        "forward": 1069,
+        "backward": 1403,
+        "total": 2472,
+        "asymmetry": -0.135113,
+        "absAsymmetry": 0.135113,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Vaasa",
+        "forward": 64,
+        "backward": 49,
+        "total": 113,
+        "asymmetry": 0.132743,
+        "absAsymmetry": 0.132743,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Other",
+        "forward": 130,
+        "backward": 100,
+        "total": 230,
+        "asymmetry": 0.130435,
+        "absAsymmetry": 0.130435,
+        "dominant": "Hameenlinna"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Tampere",
+        "forward": 2243,
+        "backward": 1737,
+        "total": 3980,
+        "asymmetry": 0.127136,
+        "absAsymmetry": 0.127136,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Mikkeli",
+        "forward": 61,
+        "backward": 78,
+        "total": 139,
+        "asymmetry": -0.122302,
+        "absAsymmetry": 0.122302,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Other",
+        "forward": 27581,
+        "backward": 35266,
+        "total": 62847,
+        "asymmetry": -0.122281,
+        "absAsymmetry": 0.122281,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Porvoo",
+        "forward": 51,
+        "backward": 65,
+        "total": 116,
+        "asymmetry": -0.12069,
+        "absAsymmetry": 0.12069,
+        "dominant": "Porvoo"
+      },
+      {
+        "cityA": "Turku",
+        "cityB": "Vaasa",
+        "forward": 362,
+        "backward": 461,
+        "total": 823,
+        "asymmetry": -0.120292,
+        "absAsymmetry": 0.120292,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Tampere",
+        "cityB": "Turku",
+        "forward": 16306,
+        "backward": 12863,
+        "total": 29169,
+        "asymmetry": 0.118036,
+        "absAsymmetry": 0.118036,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Joensuu",
+        "forward": 4787,
+        "backward": 3777,
+        "total": 8564,
+        "asymmetry": 0.117936,
+        "absAsymmetry": 0.117936,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Kotka",
+        "cityB": "Lappeenranta",
+        "forward": 15,
+        "backward": 19,
+        "total": 34,
+        "asymmetry": -0.117647,
+        "absAsymmetry": 0.117647,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Turku",
+        "forward": 85,
+        "backward": 107,
+        "total": 192,
+        "asymmetry": -0.114583,
+        "absAsymmetry": 0.114583,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Porvoo",
+        "cityB": "Turku",
+        "forward": 88,
+        "backward": 71,
+        "total": 159,
+        "asymmetry": 0.106918,
+        "absAsymmetry": 0.106918,
+        "dominant": "Porvoo"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Vantaa",
+        "forward": 419,
+        "backward": 519,
+        "total": 938,
+        "asymmetry": -0.10661,
+        "absAsymmetry": 0.10661,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Oulu",
+        "forward": 954,
+        "backward": 1179,
+        "total": 2133,
+        "asymmetry": -0.105485,
+        "absAsymmetry": 0.105485,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Pori",
+        "forward": 153,
+        "backward": 188,
+        "total": 341,
+        "asymmetry": -0.102639,
+        "absAsymmetry": 0.102639,
+        "dominant": "Pori"
+      },
+      {
+        "cityA": "Tampere",
+        "cityB": "Vaasa",
+        "forward": 543,
+        "backward": 657,
+        "total": 1200,
+        "asymmetry": -0.095,
+        "absAsymmetry": 0.095,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Vantaa",
+        "forward": 294,
+        "backward": 243,
+        "total": 537,
+        "asymmetry": 0.094972,
+        "absAsymmetry": 0.094972,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Jyvaskyla",
+        "forward": 730,
+        "backward": 881,
+        "total": 1611,
+        "asymmetry": -0.093731,
+        "absAsymmetry": 0.093731,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Other",
+        "forward": 443,
+        "backward": 369,
+        "total": 812,
+        "asymmetry": 0.091133,
+        "absAsymmetry": 0.091133,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Rauma",
+        "forward": 10,
+        "backward": 12,
+        "total": 22,
+        "asymmetry": -0.090909,
+        "absAsymmetry": 0.090909,
+        "dominant": "Rauma"
+      },
+      {
+        "cityA": "Jarvenpaa",
+        "cityB": "Lappeenranta",
+        "forward": 5,
+        "backward": 6,
+        "total": 11,
+        "asymmetry": -0.090909,
+        "absAsymmetry": 0.090909,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Kuopio",
+        "forward": 899,
+        "backward": 1069,
+        "total": 1968,
+        "asymmetry": -0.086382,
+        "absAsymmetry": 0.086382,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Turku",
+        "forward": 1834,
+        "backward": 2166,
+        "total": 4000,
+        "asymmetry": -0.083,
+        "absAsymmetry": 0.083,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Lahti",
+        "forward": 579,
+        "backward": 492,
+        "total": 1071,
+        "asymmetry": 0.081232,
+        "absAsymmetry": 0.081232,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Pori",
+        "forward": 107,
+        "backward": 91,
+        "total": 198,
+        "asymmetry": 0.080808,
+        "absAsymmetry": 0.080808,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Turku",
+        "forward": 154,
+        "backward": 181,
+        "total": 335,
+        "asymmetry": -0.080597,
+        "absAsymmetry": 0.080597,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Oulu",
+        "forward": 149,
+        "backward": 129,
+        "total": 278,
+        "asymmetry": 0.071942,
+        "absAsymmetry": 0.071942,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Tampere",
+        "cityB": "Vantaa",
+        "forward": 136,
+        "backward": 157,
+        "total": 293,
+        "asymmetry": -0.071672,
+        "absAsymmetry": 0.071672,
+        "dominant": "Vantaa"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Porvoo",
+        "forward": 98,
+        "backward": 113,
+        "total": 211,
+        "asymmetry": -0.07109,
+        "absAsymmetry": 0.07109,
+        "dominant": "Porvoo"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Vantaa",
+        "forward": 228,
+        "backward": 199,
+        "total": 427,
+        "asymmetry": 0.067916,
+        "absAsymmetry": 0.067916,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Vantaa",
+        "forward": 239,
+        "backward": 210,
+        "total": 449,
+        "asymmetry": 0.064588,
+        "absAsymmetry": 0.064588,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Kuopio",
+        "forward": 36696,
+        "backward": 32267,
+        "total": 68963,
+        "asymmetry": 0.064223,
+        "absAsymmetry": 0.064223,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Joensuu",
+        "forward": 327,
+        "backward": 289,
+        "total": 616,
+        "asymmetry": 0.061688,
+        "absAsymmetry": 0.061688,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Lappeenranta",
+        "cityB": "Porvoo",
+        "forward": 8,
+        "backward": 9,
+        "total": 17,
+        "asymmetry": -0.058824,
+        "absAsymmetry": 0.058824,
+        "dominant": "Porvoo"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Tampere",
+        "forward": 33174,
+        "backward": 36984,
+        "total": 70158,
+        "asymmetry": -0.054306,
+        "absAsymmetry": 0.054306,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Tampere",
+        "forward": 347,
+        "backward": 312,
+        "total": 659,
+        "asymmetry": 0.053111,
+        "absAsymmetry": 0.053111,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Turku",
+        "forward": 17103,
+        "backward": 18987,
+        "total": 36090,
+        "asymmetry": -0.052203,
+        "absAsymmetry": 0.052203,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Oulu",
+        "forward": 12995,
+        "backward": 11788,
+        "total": 24783,
+        "asymmetry": 0.048703,
+        "absAsymmetry": 0.048703,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Mikkeli",
+        "forward": 69,
+        "backward": 76,
+        "total": 145,
+        "asymmetry": -0.048276,
+        "absAsymmetry": 0.048276,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Mikkeli",
+        "forward": 172,
+        "backward": 187,
+        "total": 359,
+        "asymmetry": -0.041783,
+        "absAsymmetry": 0.041783,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Lappeenranta",
+        "forward": 287,
+        "backward": 311,
+        "total": 598,
+        "asymmetry": -0.040134,
+        "absAsymmetry": 0.040134,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Lohja",
+        "cityB": "Tampere",
+        "forward": 24,
+        "backward": 26,
+        "total": 50,
+        "asymmetry": -0.04,
+        "absAsymmetry": 0.04,
+        "dominant": "Tampere"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Oulu",
+        "forward": 32693,
+        "backward": 30249,
+        "total": 62942,
+        "asymmetry": 0.038829,
+        "absAsymmetry": 0.038829,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Lohja",
+        "forward": 14,
+        "backward": 13,
+        "total": 27,
+        "asymmetry": 0.037037,
+        "absAsymmetry": 0.037037,
+        "dominant": "Espoo"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Tampere",
+        "forward": 188,
+        "backward": 175,
+        "total": 363,
+        "asymmetry": 0.035813,
+        "absAsymmetry": 0.035813,
+        "dominant": "Hameenlinna"
+      },
+      {
+        "cityA": "Other",
+        "cityB": "Turku",
+        "forward": 8239,
+        "backward": 7760,
+        "total": 15999,
+        "asymmetry": 0.029939,
+        "absAsymmetry": 0.029939,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Lahti",
+        "forward": 65,
+        "backward": 69,
+        "total": 134,
+        "asymmetry": -0.029851,
+        "absAsymmetry": 0.029851,
+        "dominant": "Lahti"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Kuopio",
+        "forward": 1927,
+        "backward": 2036,
+        "total": 3963,
+        "asymmetry": -0.027504,
+        "absAsymmetry": 0.027504,
+        "dominant": "Kuopio"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Turku",
+        "forward": 35860,
+        "backward": 37806,
+        "total": 73666,
+        "asymmetry": -0.026417,
+        "absAsymmetry": 0.026417,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Jyvaskyla",
+        "cityB": "Other",
+        "forward": 1361,
+        "backward": 1296,
+        "total": 2657,
+        "asymmetry": 0.024464,
+        "absAsymmetry": 0.024464,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Espoo",
+        "cityB": "Mikkeli",
+        "forward": 21,
+        "backward": 22,
+        "total": 43,
+        "asymmetry": -0.023256,
+        "absAsymmetry": 0.023256,
+        "dominant": "Mikkeli"
+      },
+      {
+        "cityA": "Lahti",
+        "cityB": "Other",
+        "forward": 112,
+        "backward": 117,
+        "total": 229,
+        "asymmetry": -0.021834,
+        "absAsymmetry": 0.021834,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Lappeenranta",
+        "forward": 23,
+        "backward": 24,
+        "total": 47,
+        "asymmetry": -0.021277,
+        "absAsymmetry": 0.021277,
+        "dominant": "Lappeenranta"
+      },
+      {
+        "cityA": "Kuopio",
+        "cityB": "Turku",
+        "forward": 5998,
+        "backward": 6202,
+        "total": 12200,
+        "asymmetry": -0.016721,
+        "absAsymmetry": 0.016721,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Other",
+        "forward": 120,
+        "backward": 124,
+        "total": 244,
+        "asymmetry": -0.016393,
+        "absAsymmetry": 0.016393,
+        "dominant": "Other"
+      },
+      {
+        "cityA": "Mikkeli",
+        "cityB": "Oulu",
+        "forward": 106,
+        "backward": 109,
+        "total": 215,
+        "asymmetry": -0.013953,
+        "absAsymmetry": 0.013953,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Hameenlinna",
+        "cityB": "Helsinki",
+        "forward": 232,
+        "backward": 238,
+        "total": 470,
+        "asymmetry": -0.012766,
+        "absAsymmetry": 0.012766,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Pori",
+        "forward": 104,
+        "backward": 102,
+        "total": 206,
+        "asymmetry": 0.009709,
+        "absAsymmetry": 0.009709,
+        "dominant": "Oulu"
+      },
+      {
+        "cityA": "Joensuu",
+        "cityB": "Lappeenranta",
+        "forward": 90,
+        "backward": 89,
+        "total": 179,
+        "asymmetry": 0.005587,
+        "absAsymmetry": 0.005587,
+        "dominant": "Joensuu"
+      },
+      {
+        "cityA": "Oulu",
+        "cityB": "Vaasa",
+        "forward": 718,
+        "backward": 725,
+        "total": 1443,
+        "asymmetry": -0.004851,
+        "absAsymmetry": 0.004851,
+        "dominant": "Vaasa"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Lappeenranta",
+        "forward": 790594,
+        "backward": 784003,
+        "total": 1574597,
+        "asymmetry": 0.004186,
+        "absAsymmetry": 0.004186,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Turku",
+        "cityB": "Vantaa",
+        "forward": 143,
+        "backward": 142,
+        "total": 285,
+        "asymmetry": 0.003509,
+        "absAsymmetry": 0.003509,
+        "dominant": "Turku"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Vantaa",
+        "forward": 1832,
+        "backward": 1825,
+        "total": 3657,
+        "asymmetry": 0.001914,
+        "absAsymmetry": 0.001914,
+        "dominant": "Helsinki"
+      },
+      {
+        "cityA": "Helsinki",
+        "cityB": "Jyvaskyla",
+        "forward": 152512,
+        "backward": 152966,
+        "total": 305478,
+        "asymmetry": -0.001486,
+        "absAsymmetry": 0.001486,
+        "dominant": "Jyvaskyla"
+      },
+      {
+        "cityA": "Porvoo",
+        "cityB": "Vantaa",
+        "forward": 3,
+        "backward": 3,
+        "total": 6,
+        "asymmetry": 0.0,
+        "absAsymmetry": 0.0,
+        "dominant": "Balanced"
+      },
+      {
+        "cityA": "Jarvenpaa",
+        "cityB": "Turku",
+        "forward": 3,
+        "backward": 3,
+        "total": 6,
+        "asymmetry": 0.0,
+        "absAsymmetry": 0.0,
+        "dominant": "Balanced"
+      },
+      {
+        "cityA": "Jarvenpaa",
+        "cityB": "Tampere",
+        "forward": 1,
+        "backward": 1,
+        "total": 2,
+        "asymmetry": 0.0,
+        "absAsymmetry": 0.0,
+        "dominant": "Balanced"
+      }
+    ]
+  },
+  "herfindahlOutgoing": {
+    "2008-2018": [
+      {
+        "city": "Lappeenranta",
+        "hhi": 0.986648,
+        "outgoingNonSelf": 1283591,
+        "destinations": 18,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.993298
+      },
+      {
+        "city": "Jyvaskyla",
+        "hhi": 0.78183,
+        "outgoingNonSelf": 219191,
+        "destinations": 19,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.882979
+      },
+      {
+        "city": "Nurmijarvi",
+        "hhi": 0.619377,
+        "outgoingNonSelf": 17,
+        "destinations": 3,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.764706
+      },
+      {
+        "city": "Helsinki",
+        "hhi": 0.519244,
+        "outgoingNonSelf": 1810395,
+        "destinations": 21,
+        "topDestination": "Lappeenranta",
+        "topDestinationShare": 0.709215
+      },
+      {
+        "city": "Jarvenpaa",
+        "hhi": 0.317438,
+        "outgoingNonSelf": 118,
+        "destinations": 8,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.491525
+      },
+      {
+        "city": "Other",
+        "hhi": 0.305045,
+        "outgoingNonSelf": 111737,
+        "destinations": 20,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.515532
+      },
+      {
+        "city": "Vantaa",
+        "hhi": 0.295107,
+        "outgoingNonSelf": 7115,
+        "destinations": 20,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.500773
+      },
+      {
+        "city": "Espoo",
+        "hhi": 0.289497,
+        "outgoingNonSelf": 56311,
+        "destinations": 20,
+        "topDestination": "Other",
+        "topDestinationShare": 0.389142
+      },
+      {
+        "city": "Vaasa",
+        "hhi": 0.284472,
+        "outgoingNonSelf": 15759,
+        "destinations": 17,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.484041
+      },
+      {
+        "city": "Tampere",
+        "hhi": 0.270748,
+        "outgoingNonSelf": 124818,
+        "destinations": 21,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.45471
+      },
+      {
+        "city": "Kuopio",
+        "hhi": 0.258194,
+        "outgoingNonSelf": 114839,
+        "destinations": 19,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.443438
+      },
+      {
+        "city": "Turku",
+        "hhi": 0.239637,
+        "outgoingNonSelf": 149173,
+        "destinations": 20,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.411643
+      },
+      {
+        "city": "Oulu",
+        "hhi": 0.235662,
+        "outgoingNonSelf": 137825,
+        "destinations": 19,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.403744
+      },
+      {
+        "city": "Lohja",
+        "hhi": 0.233693,
+        "outgoingNonSelf": 277,
+        "destinations": 11,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.33213
+      },
+      {
+        "city": "Lahti",
+        "hhi": 0.210016,
+        "outgoingNonSelf": 4084,
+        "destinations": 16,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.368756
+      },
+      {
+        "city": "Pori",
+        "hhi": 0.18536,
+        "outgoingNonSelf": 3538,
+        "destinations": 19,
+        "topDestination": "Turku",
+        "topDestinationShare": 0.321651
+      },
+      {
+        "city": "Porvoo",
+        "hhi": 0.184277,
+        "outgoingNonSelf": 842,
+        "destinations": 12,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.287411
+      },
+      {
+        "city": "Hameenlinna",
+        "hhi": 0.182173,
+        "outgoingNonSelf": 1629,
+        "destinations": 12,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.243708
+      },
+      {
+        "city": "Joensuu",
+        "hhi": 0.146822,
+        "outgoingNonSelf": 21262,
+        "destinations": 18,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.270106
+      },
+      {
+        "city": "Kotka",
+        "hhi": 0.141567,
+        "outgoingNonSelf": 1022,
+        "destinations": 15,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.290607
+      },
+      {
+        "city": "Rauma",
+        "hhi": 0.138284,
+        "outgoingNonSelf": 323,
+        "destinations": 9,
+        "topDestination": "Turku",
+        "topDestinationShare": 0.204334
+      },
+      {
+        "city": "Mikkeli",
+        "hhi": 0.128911,
+        "outgoingNonSelf": 2503,
+        "destinations": 18,
+        "topDestination": "Kuopio",
+        "topDestinationShare": 0.219337
+      }
+    ],
+    "2009-2013": [
+      {
+        "city": "Nurmijarvi",
+        "hhi": 1.0,
+        "outgoingNonSelf": 3,
+        "destinations": 1,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 1.0
+      },
+      {
+        "city": "Lappeenranta",
+        "hhi": 0.985221,
+        "outgoingNonSelf": 491674,
+        "destinations": 15,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.992578
+      },
+      {
+        "city": "Jyvaskyla",
+        "hhi": 0.667753,
+        "outgoingNonSelf": 46511,
+        "destinations": 17,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.813829
+      },
+      {
+        "city": "Jarvenpaa",
+        "hhi": 0.612654,
+        "outgoingNonSelf": 36,
+        "destinations": 3,
+        "topDestination": "Other",
+        "topDestinationShare": 0.75
+      },
+      {
+        "city": "Helsinki",
+        "hhi": 0.587639,
+        "outgoingNonSelf": 648006,
+        "destinations": 21,
+        "topDestination": "Lappeenranta",
+        "topDestinationShare": 0.761195
+      },
+      {
+        "city": "Vaasa",
+        "hhi": 0.304466,
+        "outgoingNonSelf": 7299,
+        "destinations": 16,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.478833
+      },
+      {
+        "city": "Espoo",
+        "hhi": 0.298726,
+        "outgoingNonSelf": 21089,
+        "destinations": 19,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.39082
+      },
+      {
+        "city": "Vantaa",
+        "hhi": 0.280934,
+        "outgoingNonSelf": 2672,
+        "destinations": 16,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.463323
+      },
+      {
+        "city": "Other",
+        "hhi": 0.263998,
+        "outgoingNonSelf": 43169,
+        "destinations": 20,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.4645
+      },
+      {
+        "city": "Oulu",
+        "hhi": 0.247801,
+        "outgoingNonSelf": 52256,
+        "destinations": 18,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.429577
+      },
+      {
+        "city": "Lahti",
+        "hhi": 0.242334,
+        "outgoingNonSelf": 2045,
+        "destinations": 15,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.406846
+      },
+      {
+        "city": "Tampere",
+        "hhi": 0.241827,
+        "outgoingNonSelf": 40198,
+        "destinations": 19,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.407831
+      },
+      {
+        "city": "Kuopio",
+        "hhi": 0.239016,
+        "outgoingNonSelf": 38732,
+        "destinations": 18,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.408835
+      },
+      {
+        "city": "Turku",
+        "hhi": 0.23137,
+        "outgoingNonSelf": 49512,
+        "destinations": 19,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.403013
+      },
+      {
+        "city": "Porvoo",
+        "hhi": 0.191214,
+        "outgoingNonSelf": 325,
+        "destinations": 11,
+        "topDestination": "Turku",
+        "topDestinationShare": 0.289231
+      },
+      {
+        "city": "Pori",
+        "hhi": 0.191047,
+        "outgoingNonSelf": 1258,
+        "destinations": 14,
+        "topDestination": "Turku",
+        "topDestinationShare": 0.348967
+      },
+      {
+        "city": "Hameenlinna",
+        "hhi": 0.184819,
+        "outgoingNonSelf": 647,
+        "destinations": 10,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.227202
+      },
+      {
+        "city": "Mikkeli",
+        "hhi": 0.180947,
+        "outgoingNonSelf": 1040,
+        "destinations": 14,
+        "topDestination": "Kuopio",
+        "topDestinationShare": 0.310577
+      },
+      {
+        "city": "Rauma",
+        "hhi": 0.163097,
+        "outgoingNonSelf": 154,
+        "destinations": 7,
+        "topDestination": "Turku",
+        "topDestinationShare": 0.233766
+      },
+      {
+        "city": "Lohja",
+        "hhi": 0.149244,
+        "outgoingNonSelf": 39,
+        "destinations": 8,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.205128
+      },
+      {
+        "city": "Kotka",
+        "hhi": 0.144812,
+        "outgoingNonSelf": 498,
+        "destinations": 13,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.242972
+      },
+      {
+        "city": "Joensuu",
+        "hhi": 0.142473,
+        "outgoingNonSelf": 5474,
+        "destinations": 16,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.262696
+      }
+    ],
+    "2014-2018": [
+      {
+        "city": "Lappeenranta",
+        "hhi": 0.988461,
+        "outgoingNonSelf": 788568,
+        "destinations": 18,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.994211
+      },
+      {
+        "city": "Jyvaskyla",
+        "hhi": 0.827657,
+        "outgoingNonSelf": 168279,
+        "destinations": 19,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.909002
+      },
+      {
+        "city": "Nurmijarvi",
+        "hhi": 0.561224,
+        "outgoingNonSelf": 14,
+        "destinations": 3,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.714286
+      },
+      {
+        "city": "Jarvenpaa",
+        "hhi": 0.538086,
+        "outgoingNonSelf": 64,
+        "destinations": 6,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.71875
+      },
+      {
+        "city": "Helsinki",
+        "hhi": 0.500465,
+        "outgoingNonSelf": 1143431,
+        "destinations": 20,
+        "topDestination": "Lappeenranta",
+        "topDestinationShare": 0.691423
+      },
+      {
+        "city": "Other",
+        "hhi": 0.350539,
+        "outgoingNonSelf": 62626,
+        "destinations": 20,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.563121
+      },
+      {
+        "city": "Vantaa",
+        "hhi": 0.30028,
+        "outgoingNonSelf": 3560,
+        "destinations": 19,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.51264
+      },
+      {
+        "city": "Espoo",
+        "hhi": 0.293258,
+        "outgoingNonSelf": 31494,
+        "destinations": 19,
+        "topDestination": "Other",
+        "topDestinationShare": 0.429669
+      },
+      {
+        "city": "Tampere",
+        "hhi": 0.292657,
+        "outgoingNonSelf": 76787,
+        "destinations": 21,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.481644
+      },
+      {
+        "city": "Vaasa",
+        "hhi": 0.285055,
+        "outgoingNonSelf": 7914,
+        "destinations": 13,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.482563
+      },
+      {
+        "city": "Kuopio",
+        "hhi": 0.270683,
+        "outgoingNonSelf": 70370,
+        "destinations": 19,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.458533
+      },
+      {
+        "city": "Lohja",
+        "hhi": 0.260016,
+        "outgoingNonSelf": 203,
+        "destinations": 9,
+        "topDestination": "Turku",
+        "topDestinationShare": 0.364532
+      },
+      {
+        "city": "Turku",
+        "hhi": 0.24714,
+        "outgoingNonSelf": 91399,
+        "destinations": 20,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.413637
+      },
+      {
+        "city": "Oulu",
+        "hhi": 0.230186,
+        "outgoingNonSelf": 79293,
+        "destinations": 19,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.381484
+      },
+      {
+        "city": "Porvoo",
+        "hhi": 0.199281,
+        "outgoingNonSelf": 363,
+        "destinations": 11,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.311295
+      },
+      {
+        "city": "Pori",
+        "hhi": 0.187795,
+        "outgoingNonSelf": 2023,
+        "destinations": 17,
+        "topDestination": "Turku",
+        "topDestinationShare": 0.297578
+      },
+      {
+        "city": "Hameenlinna",
+        "hhi": 0.183091,
+        "outgoingNonSelf": 873,
+        "destinations": 11,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.26575
+      },
+      {
+        "city": "Rauma",
+        "hhi": 0.170694,
+        "outgoingNonSelf": 120,
+        "destinations": 7,
+        "topDestination": "Turku",
+        "topDestinationShare": 0.208333
+      },
+      {
+        "city": "Lahti",
+        "hhi": 0.169524,
+        "outgoingNonSelf": 1616,
+        "destinations": 16,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.304455
+      },
+      {
+        "city": "Kotka",
+        "hhi": 0.160462,
+        "outgoingNonSelf": 467,
+        "destinations": 14,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.33833
+      },
+      {
+        "city": "Joensuu",
+        "hhi": 0.151966,
+        "outgoingNonSelf": 14351,
+        "destinations": 17,
+        "topDestination": "Helsinki",
+        "topDestinationShare": 0.263187
+      },
+      {
+        "city": "Mikkeli",
+        "hhi": 0.119057,
+        "outgoingNonSelf": 1262,
+        "destinations": 16,
+        "topDestination": "Joensuu",
+        "topDestinationShare": 0.204437
+      }
+    ]
+  },
+  "communities": {
+    "2008-2018": {
+      "communityCount": 2,
+      "modularity": 0.12529,
+      "groups": [
+        {
+          "id": "C1",
+          "cities": [
+            "Helsinki",
+            "Jyvaskyla",
+            "Lappeenranta"
+          ],
+          "size": 3,
+          "internalWeight": 2946034,
+          "degreeWeight": 6616285,
+          "internalShare": 0.724488
+        },
+        {
+          "id": "C2",
+          "cities": [
+            "Espoo",
+            "Hameenlinna",
+            "Jarvenpaa",
+            "Joensuu",
+            "Kotka",
+            "Kuopio",
+            "Lahti",
+            "Lohja",
+            "Mikkeli",
+            "Nurmijarvi",
+            "Other",
+            "Oulu",
+            "Pori",
+            "Porvoo",
+            "Rauma",
+            "Tampere",
+            "Turku",
+            "Vaasa",
+            "Vantaa"
+          ],
+          "size": 19,
+          "internalWeight": 396118,
+          "degreeWeight": 1516453,
+          "internalShare": 0.097413
+        }
+      ],
+      "memberships": [
+        {
+          "city": "Espoo",
+          "community": "C2"
+        },
+        {
+          "city": "Hameenlinna",
+          "community": "C2"
+        },
+        {
+          "city": "Helsinki",
+          "community": "C1"
+        },
+        {
+          "city": "Jarvenpaa",
+          "community": "C2"
+        },
+        {
+          "city": "Joensuu",
+          "community": "C2"
+        },
+        {
+          "city": "Jyvaskyla",
+          "community": "C1"
+        },
+        {
+          "city": "Kotka",
+          "community": "C2"
+        },
+        {
+          "city": "Kuopio",
+          "community": "C2"
+        },
+        {
+          "city": "Lahti",
+          "community": "C2"
+        },
+        {
+          "city": "Lappeenranta",
+          "community": "C1"
+        },
+        {
+          "city": "Lohja",
+          "community": "C2"
+        },
+        {
+          "city": "Mikkeli",
+          "community": "C2"
+        },
+        {
+          "city": "Nurmijarvi",
+          "community": "C2"
+        },
+        {
+          "city": "Other",
+          "community": "C2"
+        },
+        {
+          "city": "Oulu",
+          "community": "C2"
+        },
+        {
+          "city": "Pori",
+          "community": "C2"
+        },
+        {
+          "city": "Porvoo",
+          "community": "C2"
+        },
+        {
+          "city": "Rauma",
+          "community": "C2"
+        },
+        {
+          "city": "Tampere",
+          "community": "C2"
+        },
+        {
+          "city": "Turku",
+          "community": "C2"
+        },
+        {
+          "city": "Vaasa",
+          "community": "C2"
+        },
+        {
+          "city": "Vantaa",
+          "community": "C2"
+        }
+      ]
+    },
+    "2009-2013": {
+      "communityCount": 2,
+      "modularity": 0.129874,
+      "groups": [
+        {
+          "id": "C1",
+          "cities": [
+            "Helsinki",
+            "Jyvaskyla",
+            "Lappeenranta",
+            "Nurmijarvi"
+          ],
+          "size": 4,
+          "internalWeight": 1057906,
+          "degreeWeight": 2366201,
+          "internalShare": 0.728266
+        },
+        {
+          "id": "C2",
+          "cities": [
+            "Espoo",
+            "Hameenlinna",
+            "Jarvenpaa",
+            "Joensuu",
+            "Kotka",
+            "Kuopio",
+            "Lahti",
+            "Lohja",
+            "Mikkeli",
+            "Other",
+            "Oulu",
+            "Pori",
+            "Porvoo",
+            "Rauma",
+            "Tampere",
+            "Turku",
+            "Vaasa",
+            "Vantaa"
+          ],
+          "size": 18,
+          "internalWeight": 144342,
+          "degreeWeight": 539073,
+          "internalShare": 0.099365
+        }
+      ],
+      "memberships": [
+        {
+          "city": "Espoo",
+          "community": "C2"
+        },
+        {
+          "city": "Hameenlinna",
+          "community": "C2"
+        },
+        {
+          "city": "Helsinki",
+          "community": "C1"
+        },
+        {
+          "city": "Jarvenpaa",
+          "community": "C2"
+        },
+        {
+          "city": "Joensuu",
+          "community": "C2"
+        },
+        {
+          "city": "Jyvaskyla",
+          "community": "C1"
+        },
+        {
+          "city": "Kotka",
+          "community": "C2"
+        },
+        {
+          "city": "Kuopio",
+          "community": "C2"
+        },
+        {
+          "city": "Lahti",
+          "community": "C2"
+        },
+        {
+          "city": "Lappeenranta",
+          "community": "C1"
+        },
+        {
+          "city": "Lohja",
+          "community": "C2"
+        },
+        {
+          "city": "Mikkeli",
+          "community": "C2"
+        },
+        {
+          "city": "Nurmijarvi",
+          "community": "C1"
+        },
+        {
+          "city": "Other",
+          "community": "C2"
+        },
+        {
+          "city": "Oulu",
+          "community": "C2"
+        },
+        {
+          "city": "Pori",
+          "community": "C2"
+        },
+        {
+          "city": "Porvoo",
+          "community": "C2"
+        },
+        {
+          "city": "Rauma",
+          "community": "C2"
+        },
+        {
+          "city": "Tampere",
+          "community": "C2"
+        },
+        {
+          "city": "Turku",
+          "community": "C2"
+        },
+        {
+          "city": "Vaasa",
+          "community": "C2"
+        },
+        {
+          "city": "Vantaa",
+          "community": "C2"
+        }
+      ]
+    },
+    "2014-2018": {
+      "communityCount": 2,
+      "modularity": 0.119382,
+      "groups": [
+        {
+          "id": "C1",
+          "cities": [
+            "Helsinki",
+            "Jyvaskyla",
+            "Lappeenranta"
+          ],
+          "size": 3,
+          "internalWeight": 1881081,
+          "degreeWeight": 4195642,
+          "internalShare": 0.739106
+        },
+        {
+          "id": "C2",
+          "cities": [
+            "Espoo",
+            "Hameenlinna",
+            "Jarvenpaa",
+            "Joensuu",
+            "Kotka",
+            "Kuopio",
+            "Lahti",
+            "Lohja",
+            "Mikkeli",
+            "Nurmijarvi",
+            "Other",
+            "Oulu",
+            "Pori",
+            "Porvoo",
+            "Rauma",
+            "Tampere",
+            "Turku",
+            "Vaasa",
+            "Vantaa"
+          ],
+          "size": 19,
+          "internalWeight": 230516,
+          "degreeWeight": 894512,
+          "internalShare": 0.090573
+        }
+      ],
+      "memberships": [
+        {
+          "city": "Espoo",
+          "community": "C2"
+        },
+        {
+          "city": "Hameenlinna",
+          "community": "C2"
+        },
+        {
+          "city": "Helsinki",
+          "community": "C1"
+        },
+        {
+          "city": "Jarvenpaa",
+          "community": "C2"
+        },
+        {
+          "city": "Joensuu",
+          "community": "C2"
+        },
+        {
+          "city": "Jyvaskyla",
+          "community": "C1"
+        },
+        {
+          "city": "Kotka",
+          "community": "C2"
+        },
+        {
+          "city": "Kuopio",
+          "community": "C2"
+        },
+        {
+          "city": "Lahti",
+          "community": "C2"
+        },
+        {
+          "city": "Lappeenranta",
+          "community": "C1"
+        },
+        {
+          "city": "Lohja",
+          "community": "C2"
+        },
+        {
+          "city": "Mikkeli",
+          "community": "C2"
+        },
+        {
+          "city": "Nurmijarvi",
+          "community": "C2"
+        },
+        {
+          "city": "Other",
+          "community": "C2"
+        },
+        {
+          "city": "Oulu",
+          "community": "C2"
+        },
+        {
+          "city": "Pori",
+          "community": "C2"
+        },
+        {
+          "city": "Porvoo",
+          "community": "C2"
+        },
+        {
+          "city": "Rauma",
+          "community": "C2"
+        },
+        {
+          "city": "Tampere",
+          "community": "C2"
+        },
+        {
+          "city": "Turku",
+          "community": "C2"
+        },
+        {
+          "city": "Vaasa",
+          "community": "C2"
+        },
+        {
+          "city": "Vantaa",
+          "community": "C2"
+        }
+      ]
+    }
+  },
+  "topLinks": [
+    {
+      "source": "Helsinki",
+      "target": "Lappeenranta",
+      "value": 1283959,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Lappeenranta",
+      "target": "Helsinki",
+      "value": 1274989,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Jyvaskyla",
+      "target": "Helsinki",
+      "value": 193541,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Helsinki",
+      "target": "Jyvaskyla",
+      "value": 191681,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Turku",
+      "target": "Helsinki",
+      "value": 61406,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Helsinki",
+      "target": "Turku",
+      "value": 58412,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Helsinki",
+      "target": "Oulu",
+      "value": 58289,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Other",
+      "target": "Helsinki",
+      "value": 57604,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Tampere",
+      "target": "Helsinki",
+      "value": 56756,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Oulu",
+      "target": "Helsinki",
+      "value": 55646,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Helsinki",
+      "target": "Tampere",
+      "value": 54926,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Helsinki",
+      "target": "Kuopio",
+      "value": 54759,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Kuopio",
+      "target": "Helsinki",
+      "value": 50924,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Helsinki",
+      "target": "Other",
+      "value": 47942,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Helsinki",
+      "target": "Espoo",
+      "value": 35065,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Tampere",
+      "target": "Turku",
+      "value": 26768,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Turku",
+      "target": "Oulu",
+      "value": 26606,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Oulu",
+      "target": "Turku",
+      "value": 24857,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Kuopio",
+      "target": "Oulu",
+      "value": 22393,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Espoo",
+      "target": "Other",
+      "value": 21913,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Turku",
+      "target": "Tampere",
+      "value": 21500,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Oulu",
+      "target": "Kuopio",
+      "value": 20840,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Espoo",
+      "target": "Helsinki",
+      "value": 19897,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Turku",
+      "target": "Other",
+      "value": 15854,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Other",
+      "target": "Turku",
+      "value": 15804,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Oulu",
+      "target": "Tampere",
+      "value": 14526,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Kuopio",
+      "target": "Tampere",
+      "value": 11628,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Helsinki",
+      "target": "Vaasa",
+      "value": 11344,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Tampere",
+      "target": "Oulu",
+      "value": 10412,
+      "period": "2008-2018"
+    },
+    {
+      "source": "Turku",
+      "target": "Kuopio",
+      "value": 10321,
+      "period": "2008-2018"
+    }
+  ],
+  "topIncoming": [
+    {
+      "city": "Helsinki",
+      "value": 5049354
+    },
+    {
+      "city": "Lappeenranta",
+      "value": 1451073
+    },
+    {
+      "city": "Turku",
+      "value": 542694
+    },
+    {
+      "city": "Oulu",
+      "value": 501955
+    },
+    {
+      "city": "Tampere",
+      "value": 434493
+    },
+    {
+      "city": "Jyvaskyla",
+      "value": 430352
+    },
+    {
+      "city": "Kuopio",
+      "value": 401922
+    },
+    {
+      "city": "Other",
+      "value": 212173
+    },
+    {
+      "city": "Espoo",
+      "value": 105560
+    },
+    {
+      "city": "Joensuu",
+      "value": 37682
+    }
+  ],
+  "topOutgoing": [
+    {
+      "city": "Helsinki",
+      "value": 5068280
+    },
+    {
+      "city": "Lappeenranta",
+      "value": 1443617
+    },
+    {
+      "city": "Turku",
+      "value": 540447
+    },
+    {
+      "city": "Oulu",
+      "value": 501088
+    },
+    {
+      "city": "Tampere",
+      "value": 433190
+    },
+    {
+      "city": "Jyvaskyla",
+      "value": 428951
+    },
+    {
+      "city": "Kuopio",
+      "value": 402019
+    },
+    {
+      "city": "Other",
+      "value": 208617
+    },
+    {
+      "city": "Espoo",
+      "value": 104483
+    },
+    {
+      "city": "Joensuu",
+      "value": 37872
+    }
+  ],
+  "changedLinks": [
+    {
+      "source": "Helsinki",
+      "target": "Lappeenranta",
+      "before": 493259,
+      "after": 790594,
+      "delta": 297335,
+      "absDelta": 297335,
+      "changeRate": 0.6028
+    },
+    {
+      "source": "Lappeenranta",
+      "target": "Helsinki",
+      "before": 488025,
+      "after": 784003,
+      "delta": 295978,
+      "absDelta": 295978,
+      "changeRate": 0.6065
+    },
+    {
+      "source": "Jyvaskyla",
+      "target": "Helsinki",
+      "before": 37852,
+      "after": 152966,
+      "delta": 115114,
+      "absDelta": 115114,
+      "changeRate": 3.0412
+    },
+    {
+      "source": "Helsinki",
+      "target": "Jyvaskyla",
+      "before": 37978,
+      "after": 152512,
+      "delta": 114534,
+      "absDelta": 114534,
+      "changeRate": 3.0158
+    },
+    {
+      "source": "Helsinki",
+      "target": "Kuopio",
+      "before": 15293,
+      "after": 36696,
+      "delta": 21403,
+      "absDelta": 21403,
+      "changeRate": 1.3995
+    },
+    {
+      "source": "Tampere",
+      "target": "Helsinki",
+      "before": 16394,
+      "after": 36984,
+      "delta": 20590,
+      "absDelta": 20590,
+      "changeRate": 1.2559
+    },
+    {
+      "source": "Turku",
+      "target": "Helsinki",
+      "before": 19954,
+      "after": 37806,
+      "delta": 17852,
+      "absDelta": 17852,
+      "changeRate": 0.8947
+    },
+    {
+      "source": "Helsinki",
+      "target": "Turku",
+      "before": 19235,
+      "after": 35860,
+      "delta": 16625,
+      "absDelta": 16625,
+      "changeRate": 0.8643
+    },
+    {
+      "source": "Kuopio",
+      "target": "Helsinki",
+      "before": 15835,
+      "after": 32267,
+      "delta": 16432,
+      "absDelta": 16432,
+      "changeRate": 1.0377
+    },
+    {
+      "source": "Other",
+      "target": "Helsinki",
+      "before": 20052,
+      "after": 35266,
+      "delta": 15214,
+      "absDelta": 15214,
+      "changeRate": 0.7587
+    },
+    {
+      "source": "Helsinki",
+      "target": "Tampere",
+      "before": 18384,
+      "after": 33174,
+      "delta": 14790,
+      "absDelta": 14790,
+      "changeRate": 0.8045
+    },
+    {
+      "source": "Turku",
+      "target": "Oulu",
+      "before": 6709,
+      "after": 18987,
+      "delta": 12278,
+      "absDelta": 12278,
+      "changeRate": 1.8301
+    },
+    {
+      "source": "Oulu",
+      "target": "Turku",
+      "before": 7023,
+      "after": 17103,
+      "delta": 10080,
+      "absDelta": 10080,
+      "changeRate": 1.4353
+    },
+    {
+      "source": "Helsinki",
+      "target": "Other",
+      "before": 17932,
+      "after": 27581,
+      "delta": 9649,
+      "absDelta": 9649,
+      "changeRate": 0.5381
+    },
+    {
+      "source": "Helsinki",
+      "target": "Oulu",
+      "before": 23529,
+      "after": 32693,
+      "delta": 9164,
+      "absDelta": 9164,
+      "changeRate": 0.3895
+    },
+    {
+      "source": "Oulu",
+      "target": "Helsinki",
+      "before": 22448,
+      "after": 30249,
+      "delta": 7801,
+      "absDelta": 7801,
+      "changeRate": 0.3475
+    },
+    {
+      "source": "Helsinki",
+      "target": "Espoo",
+      "before": 12728,
+      "after": 19962,
+      "delta": 7234,
+      "absDelta": 7234,
+      "changeRate": 0.5684
+    },
+    {
+      "source": "Tampere",
+      "target": "Turku",
+      "before": 9246,
+      "after": 16306,
+      "delta": 7060,
+      "absDelta": 7060,
+      "changeRate": 0.7636
+    },
+    {
+      "source": "Espoo",
+      "target": "Other",
+      "before": 7632,
+      "after": 13532,
+      "delta": 5900,
+      "absDelta": 5900,
+      "changeRate": 0.7731
+    },
+    {
+      "source": "Turku",
+      "target": "Tampere",
+      "before": 7333,
+      "after": 12863,
+      "delta": 5530,
+      "absDelta": 5530,
+      "changeRate": 0.7541
+    },
+    {
+      "source": "Kuopio",
+      "target": "Oulu",
+      "before": 8720,
+      "after": 12995,
+      "delta": 4275,
+      "absDelta": 4275,
+      "changeRate": 0.4903
+    },
+    {
+      "source": "Kuopio",
+      "target": "Tampere",
+      "before": 3448,
+      "after": 7701,
+      "delta": 4253,
+      "absDelta": 4253,
+      "changeRate": 1.2335
+    },
+    {
+      "source": "Kuopio",
+      "target": "Jyvaskyla",
+      "before": 1104,
+      "after": 5044,
+      "delta": 3940,
+      "absDelta": 3940,
+      "changeRate": 3.5688
+    },
+    {
+      "source": "Oulu",
+      "target": "Kuopio",
+      "before": 8374,
+      "after": 11788,
+      "delta": 3414,
+      "absDelta": 3414,
+      "changeRate": 0.4077
+    },
+    {
+      "source": "Helsinki",
+      "target": "Joensuu",
+      "before": 1539,
+      "after": 4787,
+      "delta": 3248,
+      "absDelta": 3248,
+      "changeRate": 2.1105
+    }
+  ],
+  "strongestPairs": [
+    {
+      "source": "Helsinki",
+      "target": "Lappeenranta",
+      "forward": 1283959,
+      "backward": 1274989,
+      "total": 2558948
+    },
+    {
+      "source": "Helsinki",
+      "target": "Jyvaskyla",
+      "forward": 191681,
+      "backward": 193541,
+      "total": 385222
+    },
+    {
+      "source": "Helsinki",
+      "target": "Turku",
+      "forward": 58412,
+      "backward": 61406,
+      "total": 119818
+    },
+    {
+      "source": "Helsinki",
+      "target": "Oulu",
+      "forward": 58289,
+      "backward": 55646,
+      "total": 113935
+    },
+    {
+      "source": "Helsinki",
+      "target": "Tampere",
+      "forward": 54926,
+      "backward": 56756,
+      "total": 111682
+    },
+    {
+      "source": "Helsinki",
+      "target": "Kuopio",
+      "forward": 54759,
+      "backward": 50924,
+      "total": 105683
+    },
+    {
+      "source": "Helsinki",
+      "target": "Other",
+      "forward": 47942,
+      "backward": 57604,
+      "total": 105546
+    },
+    {
+      "source": "Espoo",
+      "target": "Helsinki",
+      "forward": 19897,
+      "backward": 35065,
+      "total": 54962
+    },
+    {
+      "source": "Oulu",
+      "target": "Turku",
+      "forward": 24857,
+      "backward": 26606,
+      "total": 51463
+    },
+    {
+      "source": "Tampere",
+      "target": "Turku",
+      "forward": 26768,
+      "backward": 21500,
+      "total": 48268
+    },
+    {
+      "source": "Kuopio",
+      "target": "Oulu",
+      "forward": 22393,
+      "backward": 20840,
+      "total": 43233
+    },
+    {
+      "source": "Other",
+      "target": "Turku",
+      "forward": 15804,
+      "backward": 15854,
+      "total": 31658
+    },
+    {
+      "source": "Espoo",
+      "target": "Other",
+      "forward": 21913,
+      "backward": 8580,
+      "total": 30493
+    },
+    {
+      "source": "Oulu",
+      "target": "Tampere",
+      "forward": 14526,
+      "backward": 10412,
+      "total": 24938
+    },
+    {
+      "source": "Kuopio",
+      "target": "Tampere",
+      "forward": 11628,
+      "backward": 9306,
+      "total": 20934
+    },
+    {
+      "source": "Kuopio",
+      "target": "Turku",
+      "forward": 9801,
+      "backward": 10321,
+      "total": 20122
+    },
+    {
+      "source": "Helsinki",
+      "target": "Vaasa",
+      "forward": 11344,
+      "backward": 7628,
+      "total": 18972
+    },
+    {
+      "source": "Other",
+      "target": "Oulu",
+      "forward": 8220,
+      "backward": 8586,
+      "total": 16806
+    },
+    {
+      "source": "Other",
+      "target": "Tampere",
+      "forward": 6709,
+      "backward": 6495,
+      "total": 13204
+    },
+    {
+      "source": "Helsinki",
+      "target": "Joensuu",
+      "forward": 6823,
+      "backward": 5743,
+      "total": 12566
+    }
+  ],
+  "findings": [
+    "Helsinki 与 Lappeenranta 之间形成最强的双向迁移通道。",
+    "城市流动网络呈现明显核心-边缘结构，Helsinki 是最重要的连接枢纽。",
+    "对角线自循环数值很高，说明同城科研活动留存仍占较大比例。",
+    "2009-2013 与 2014-2018 对比可观察到部分核心通道继续增强。"
+  ]
+}
