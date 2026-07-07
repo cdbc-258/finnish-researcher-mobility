@@ -261,7 +261,7 @@ const CityViz = (function() {
   function renderAll() {
     d3.selectAll(".period-controls").selectAll("button").classed("active", d => d === state.period);
     d3.select("#directionControls").selectAll("button").classed("active", function() { return this.dataset.direction === state.direction; });
-    renderPeriodStats(); renderFindings(); renderMap(); renderNetwork();
+    renderPeriodStats(); renderFindings(); renderNetwork();
     renderMatrix(); renderBars(); renderTrendAndTopLinks(); renderMetricCharts();
     renderRetentionDonuts(); renderRetentionRanking(); renderQuadrantChart();
     renderDiffHeatmap(); renderComparison();
@@ -276,68 +276,6 @@ const CityViz = (function() {
   function renderFindings() {
     d3.select("#findings").selectAll("li").data(state.summary.findings).join("li").text(d => d);
   }
-
-  // ===== Map =====
-  function renderMap() {
-    const svg = d3.select("#mapChart"), width = svg.node().clientWidth, height = svg.node().clientHeight;
-    svg.selectAll("*").remove();
-    const defs = svg.append("defs");
-    ["flowArrow","flowArrowStrong"].forEach(id => {
-      const a = defs.append("marker").attr("id",id).attr("viewBox","0 -5 10 10").attr("refX",9).attr("refY",0).attr("markerWidth",id==="flowArrow"?7:4.8).attr("markerHeight",id==="flowArrow"?7:4.8).attr("orient","auto");
-      a.append("path").attr("d","M0,-5L10,0L0,5").attr("fill",colors.greenDark);
-    });
-    const projection = d3.geoMercator().center([25.7,62.1]).scale(Math.min(width*2.45,height*3.05)).translate([width*0.48,height*0.53]);
-    state.projection = projection;
-    drawFallbackFinland(svg, projection);
-    const links = currentLinks();
-    const radius = d3.scaleSqrt().domain([0,d3.max(state.nodes,d=>d.total)]).range([4.2,18]);
-    const wScale = d3.scaleSqrt().domain([0,d3.max(links,d=>d.value)||1]).range([0.9,10]);
-
-    svg.append("g").selectAll("path").data(links).join("path")
-      .attr("class", d => linkClass(d,"flow-line"))
-      .attr("d", d => mapLinkPath(d, projection))
-      .attr("stroke-width", d => wScale(d.value))
-      .attr("opacity", d => d.isSelf?0.45:0.58)
-      .attr("marker-end", d => d.isSelf?null:mapArrowMarker(wScale(d.value)))
-      .on("mousemove", (ev,d) => showTT(ev,`<strong>${d.source} → ${d.target}</strong><br>${state.period}<br>流动次数：${fmt(d.value)}`))
-      .on("mouseleave", hideTT);
-
-    const cg = svg.append("g").selectAll("g").data(state.nodes).join("g")
-      .attr("transform", d => `translate(${projectCity(d,projection)})`)
-      .attr("class", d => cityClass(d.id,"map-city"))
-      .on("click", (_,d) => selectCity(d.id))
-      .on("mousemove", (ev,d) => showTT(ev,`<strong>${d.id}</strong><br>总流动：${fmt(d.total)}<br>流入：${fmt(d.incoming)}<br>流出：${fmt(d.outgoing)}<br>排名：${d.rank}`))
-      .on("mouseleave", hideTT);
-    cg.append("circle").attr("class","city-node").attr("r", d => radius(d.total) * (d.id==="Helsinki"?1.4:1)).attr("fill", nodeColor);
-    cg.append("text").attr("class","city-label").attr("x", d => radius(d.total) * (d.id==="Helsinki"?1.4:1) + 4).attr("y",4).text(d => d.label);
-
-    svg.append("text").attr("x",8).attr("y",height-10).attr("fill",colors.gray).attr("font-size",11)
-      .text("注：Other 为其他地区虚拟节点；底图为简化示意。");
-  }
-
-  function drawFallbackFinland(svg, projection) {
-    const outline = {type:"Polygon",coordinates:[[[20.55,59.72],[22.2,60.15],[23.7,60.18],[25.2,60.05],[26.6,60.35],[28.6,60.55],[30.05,61.28],[30.15,62.35],[29.32,63.45],[30.1,64.9],[29.65,66.1],[29.05,67.35],[28.5,68.8],[27.7,69.7],[25.8,70.1],[23.7,68.85],[22.4,67.7],[23.1,66.4],[24.0,65.25],[23.15,64.0],[22.25,62.6],[21.2,61.45],[20.55,59.72]]]};
-    svg.append("path").datum(outline).attr("class","country").attr("d",d3.geoPath(projection));
-    const lakes = [{lon:27.7,lat:62.4,r:12},{lon:25.4,lat:62.3,r:9},{lon:28.2,lat:61.8,r:8}];
-    svg.append("g").selectAll("circle").data(lakes).join("circle")
-      .attr("cx", d => projection([d.lon,d.lat])[0]).attr("cy", d => projection([d.lon,d.lat])[1])
-      .attr("r", d => d.r).attr("fill","#d9eaf7").attr("opacity",0.75);
-  }
-  function projectCity(city, projection) {
-    if (city.id === "Other") { const w = d3.select("#mapChart").node().clientWidth, h = d3.select("#mapChart").node().clientHeight; return [w-95, h-85]; }
-    return projection([city.lon, city.lat]);
-  }
-  function mapLinkPath(l, proj) {
-    const [sx,sy] = projectCity(nodeById(l.source),proj), [tx,ty] = projectCity(nodeById(l.target),proj);
-    if (l.isSelf) { const r=14; return `M${sx},${sy}c${r},-${r*1.4} ${r*2.2},${r*1.4} 0,${r*1.8}`; }
-    const dx=tx-sx, dy=ty-sy, dr=Math.sqrt(dx*dx+dy*dy);
-    if (!dr) return `M${sx},${sy}L${tx},${ty}`;
-    const curve = Math.max(28,Math.min(130,dr*0.26));
-    const mx=(sx+tx)/2-(dy/dr)*curve, my=(sy+ty)/2+(dx/dr)*curve;
-    return `M${sx},${sy}Q${mx},${my} ${tx},${ty}`;
-  }
-  function mapArrowMarker(sw) { return sw>=8.8?"url(#flowArrowStrong)":"url(#flowArrow)"; }
-
   // ===== Network =====
   function renderNetwork() {
     const svg = d3.select("#networkChart"), width = svg.node().clientWidth, height = svg.node().clientHeight;
